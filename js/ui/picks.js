@@ -14,6 +14,9 @@ function facts(e) {
   if (e.score.adjustments.length) out.push(`regolazioni: ${e.score.adjustments.join(', ')}`);
   if (c.rating) out.push(`★ ${String(c.rating.v).replace('.', ',')} su ${int(c.rating.n)} valutazioni (${c.rating.platform.split(' ')[0]})`);
   if (c.maxLoad?.v) out.push(`portata ${c.maxLoad.v} kg`);
+  const v = (n, d = 1) => String(Math.round(n * 10 ** d) / 10 ** d).replace('.', ',');
+  const epp = e.score.quality > 0 ? (a.budget.total ?? c.price) / e.score.quality : null;
+  out.push(`indice di qualità ${v(e.score.quality)}/100${epp != null ? ` (${v(epp, 2)} € a punto)` : ''}`);
   return out;
 }
 
@@ -38,11 +41,13 @@ export function render(root, ctx) {
   const p = ctx.picks;
   const custom = JSON.stringify(state.weights) !== JSON.stringify(DEFAULT_WEIGHTS);
   const deal = p.bestDeal;
+  const bv = p.bestValue ? p.value.byId.get(p.bestValue.chair.id) : null;
   root.innerHTML = `
     <h1>Scelte per la tua postazione</h1>
     <p class="muted">Calcolate tra le <strong>${p.eligibleCount}</strong> sedie idonee (vincoli di larghezza, braccioli e budget verificati). I vincoli vengono prima del punteggio: una sedia esclusa o da verificare non può comparire qui. ${custom ? '<strong>Stai usando pesi personalizzati</strong> (vedi Metodo).' : 'Pesi predefiniti (modificabili in «Metodo e fonti»).'}</p>
     <div class="picks">
       ${pickCard('Migliore scelta complessiva', p.bestOverall, 'Miglior punteggio editoriale tra le idonee.')}
+      ${pickCard('Miglior rapporto qualità-prezzo', p.bestValue, bv ? `Meno euro per punto di qualità tra le idonee: ${String(bv.eurPerPoint.toFixed(2)).replace('.', ',')} € a punto. ${bv.onFrontier ? 'È sulla frontiera qualità-prezzo.' : ''} <a href="#/valore">Grafico e frontiera</a>` : '')}
       ${pickCard('Migliore per spazio ridotto', p.smallSpace, 'Minore profondità documentata tra le idonee: lascia più spazio nei 90 cm alle spalle.')}
       ${pickCard('Migliore per regolazioni documentate', p.adjust, 'Più regolazioni dichiarate dal venditore tra le idonee.')}
       ${pickCard('Migliore offerta verificata', deal, deal ? `Prezzo ${euro(deal.chair.price)}, −${deal.discount.pct}% rispetto al ${esc(REF_LABEL[deal.discount.ref.kind])} di ${euro(deal.discount.ref.v)} (riferimento affidabile; il «prezzo consigliato» non è considerato).` : '')}

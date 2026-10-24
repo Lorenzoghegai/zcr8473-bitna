@@ -6,6 +6,7 @@ import * as catalog from '@app/js/ui/catalog.js';
 import * as detail from '@app/js/ui/detail.js';
 import * as compare from '@app/js/ui/compare.js';
 import * as choices from '@app/js/ui/picks.js';
+import * as value from '@app/js/ui/value.js';
 import * as method from '@app/js/ui/method.js';
 import * as conventions from '@app/js/ui/conventions.js';
 import * as room from '@app/js/ui/room.js';
@@ -18,6 +19,7 @@ const ROUTES = {
   sedia: detail,
   confronto: compare,
   scelte: choices,
+  valore: value,
   metodo: method,
   convenzioni: conventions,
   stanza: room,

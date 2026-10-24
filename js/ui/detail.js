@@ -4,6 +4,7 @@ import { euro, cm, range, int, STATUS_LABEL, DIM_LABEL, WIDTH_LABEL, ARMS_LABEL,
 import { resolveChairGeometry, roomFromParams, layout, defaultPose } from '@app/js/logic/geometry.js';
 import { WEIGHT_LABELS } from '@app/js/logic/score.js';
 import { giftCardOutlay } from '@app/js/logic/giftcard.js';
+import { alternativesFor, eurPerPoint, valueTotal, QUALITY_KEYS } from '@app/js/logic/value.js';
 
 const cls = (s) => ({ ok: 'ok', verificato: 'ok', 'verificato-ritiro': 'ok', derivata: 'warn', parziale: 'warn', mancante: 'warn', compromesso: 'warn', incerta: 'warn', probabile: 'warn', incompatibile: 'bad', fuori: 'bad' }[s] || 'neutral');
 
@@ -107,6 +108,8 @@ export function render(root, ctx, [id]) {
           </div>
         </div>
 
+        ${valuePanel(e, ctx)}
+
         <div class="panel" style="margin-top:14px">
           <h2>Dati mancanti, contraddittori o da confermare</h2>
           ${(c.issues || []).length || g.flags.length ? `<ul class="tight">${(c.issues || []).map((i) => `<li>${esc(i)}</li>`).join('')}${g.flags.map((f) => `<li class="muted">Modello 3D: ${esc(f)}</li>`).join('')}</ul>` : '<p class="muted">Nessuna discrepanza registrata.</p>'}
@@ -123,4 +126,44 @@ export function render(root, ctx, [id]) {
     ctx.updateCounts();
   });
   root.querySelector('#fav').addEventListener('click', () => { toggleIn('favorites', c.id); render(root, ctx, [id]); });
+}
+
+const dec = (n, d = 1) => String(Math.round(n * 10 ** d) / 10 ** d).replace('.', ',');
+const short = (c) => `${c.brand.replace(/\s*\(.*\)$/, '')} ${c.model.replace(/\s*[(«].*$/, '')}`;
+
+// Rapporto qualità-prezzo della sedia, confrontato con le sedie idonee.
+function valuePanel(e, ctx) {
+  const v = ctx.picks.value;
+  const info = v.byId.get(e.chair.id);
+  const q = e.score.quality;
+  const total = valueTotal(e);
+  const epp = eurPerPoint(total, q);
+  const lower = e.assess.budget.total == null;
+  const idonee = ctx.evaluated.filter((x) => x.assess.status === 'idonea');
+  const alts = info ? info.dominatedBy : alternativesFor(e, idonee);
+  const rank = info ? v.ranked.findIndex((i) => i.id === e.chair.id) + 1 : 0;
+  const partial = !e.chair.rating || e.score.parts.completezza < 0.6;
+  let verdict;
+  if (info?.onFrontier) {
+    verdict = `${badge('ok', 'Sulla frontiera')} Nessuna sedia idonea costa meno (o uguale) con un indice di qualità pari o superiore.`;
+    if (info.step) {
+      verdict += ` Rispetto a <a href="#/sedia/${encodeURIComponent(info.step.from.chair.id)}">${esc(short(info.step.from.chair))}</a>: +${euro(info.step.dEur)} per +${dec(info.step.dQ)} punti${info.step.eurPerExtraPoint != null ? ` (${dec(info.step.eurPerExtraPoint, 2)} € a punto in più)` : ''}.`;
+    } else {
+      verdict += ' È la più economica della frontiera.';
+    }
+  } else if (alts.length) {
+    verdict = `${badge('warn', 'Battuta')} ${info ? 'Tra le idonee' : 'Tra le sedie idonee'} ${alts.length === 1 ? 'c\'è un\'alternativa' : `ci sono ${alts.length} alternative`} che costa${alts.length === 1 ? '' : 'no'} non di più con qualità non inferiore:`;
+  } else {
+    verdict = 'Nessuna sedia idonea è insieme migliore e meno cara.';
+  }
+  return `<div class="panel" style="margin-top:14px">
+    <h2>Rapporto qualità-prezzo</h2>
+    <dl class="kv">
+      <dt>Indice di qualità</dt><dd><strong>${dec(q)}/100</strong> <span class="small muted">(${QUALITY_KEYS.map((k) => `${esc(WEIGHT_LABELS[k].toLowerCase())} ${Math.round(e.score.parts[k] * 100)}%`).join(' · ')})</span>${partial ? '<div class="small muted">Dati parziali: le componenti senza dati valgono zero, l\'indice può sottostimare la sedia.</div>' : ''}</dd>
+      <dt>Euro per punto</dt><dd>${epp != null ? `<strong>${dec(epp, 2)} €</strong> ${lower ? '<span class="small muted">(sul solo prezzo: spedizione non verificata)</span>' : ''}` : '—'}${rank ? ` <span class="small muted">· ${rank}ª su ${v.ranked.length} idonee</span>` : ''}</dd>
+    </dl>
+    <p class="small" style="margin:10px 0 4px">${verdict}</p>
+    ${!info?.onFrontier && alts.length ? `<ul class="tight small">${alts.slice(0, 3).map((a) => `<li><a href="#/sedia/${encodeURIComponent(a.id)}">${esc(short(a.e.chair))}</a> — ${a.saving > 0 ? `${euro(a.saving)} in meno` : 'stesso prezzo'}, ${a.gain > 0 ? `+${dec(a.gain)} punti` : 'stessa qualità'}</li>`).join('')}</ul>` : ''}
+    <p class="small muted" style="margin:6px 0 0">Indice senza prezzo (regolazioni, recensioni, robustezza con i pesi di «Metodo»). <a href="#/valore">Vedi il grafico qualità-prezzo</a>.</p>
+  </div>`;
 }

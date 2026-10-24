@@ -2,6 +2,7 @@
 // ordinare le sedie che hanno già superato i vincoli. I pesi sono modificabili.
 
 import { assessChair, verifiedDiscount } from '@app/js/logic/compat.js';
+import { qualityIndex, analyzeValue } from '@app/js/logic/value.js';
 
 export const DEFAULT_WEIGHTS = {
   regolazioni: 30,
@@ -115,7 +116,7 @@ export function scoreChair(chair, weights = DEFAULT_WEIGHTS, constraints, assess
   };
   const wsum = Object.values(weights).reduce((a, b) => a + b, 0) || 1;
   const value = Object.entries(parts).reduce((acc, [k, v]) => acc + v * (weights[k] || 0), 0) / wsum * 100;
-  return { value: Math.round(value * 10) / 10, parts, adjustments: adj.parts, bayes: rev.bayes };
+  return { value: Math.round(value * 10) / 10, parts, quality: qualityIndex(parts, weights), adjustments: adj.parts, bayes: rev.bayes };
 }
 
 // Arricchisce il catalogo con valutazioni e punteggi.
@@ -142,5 +143,8 @@ export function picks(evaluated) {
   const deals = ok.filter((e) => e.discount?.reliable && e.discount.pct >= 5).sort((a, b) => byScore(a, b) || (b.discount.pct - a.discount.pct));
   const bestDeal = deals[0] || null;
   const toVerify = evaluated.filter((e) => e.assess.status === 'da-verificare').sort(byScore).slice(0, 5);
-  return { bestOverall, alternatives, smallSpace, adjust, bestDeal, toVerify, eligibleCount: ok.length };
+  // Qualità-prezzo: costo più basso per punto dell'indice di qualità tra le idonee.
+  const value = analyzeValue(ok);
+  const bestValue = value.ranked[0]?.e || null;
+  return { bestOverall, alternatives, smallSpace, adjust, bestDeal, bestValue, value, toVerify, eligibleCount: ok.length };
 }

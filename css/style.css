@@ -17,6 +17,8 @@
   --bad-soft: #fbe3df;
   --shadow: 0 1px 2px rgba(20, 24, 32, .06), 0 4px 16px rgba(20, 24, 32, .06);
   --radius: 12px;
+  --q-ok: #008a7e;     /* grafico qualità-prezzo: idonee (palette validata) */
+  --q-check: #c2540a;  /* grafico qualità-prezzo: da verificare */
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -25,6 +27,7 @@
     --line: #2f3540; --accent: #3fb8b1; --accent-ink: #062523; --accent-soft: #163634;
     --ok: #6fd294; --ok-soft: #173826; --warn: #f0c060; --warn-soft: #3a2f14; --bad: #ff8a7a; --bad-soft: #3d1d19;
     --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+    --q-ok: #1fa89e; --q-check: #d9722f;
     color-scheme: dark;
   }
 }
@@ -94,6 +97,7 @@ main { max-width: 1320px; margin: 0 auto; padding: 20px; outline: none; }
 .price small { font-size: .78rem; font-weight: 500; color: var(--ink-3); }
 .chips { display: flex; flex-wrap: wrap; gap: 4px; }
 .chip { font-size: .76rem; padding: 2px 7px; border-radius: 6px; background: var(--surface-2); color: var(--ink-2); white-space: nowrap; }
+a.chip { text-decoration: none; }
 .chip.ok { background: var(--ok-soft); color: var(--ok); } .chip.warn { background: var(--warn-soft); color: var(--warn); } .chip.bad { background: var(--bad-soft); color: var(--bad); }
 .chair-card .actions { margin-top: auto; padding-top: 6px; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
 .placeholder-img { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; color: var(--ink-3); font-size: .8rem; text-align: center; padding: 10px; background: repeating-linear-gradient(45deg, var(--surface-2), var(--surface-2) 8px, var(--surface) 8px, var(--surface) 16px); }
@@ -125,6 +129,32 @@ table.compare img { height: 110px; object-fit: contain; background: #fff; border
 .pick { padding: 14px; display: flex; gap: 12px; }
 .pick img, .pick .placeholder-img { width: 96px; height: 96px; object-fit: contain; background: #fff; border-radius: 8px; flex: none; }
 .pick .kicker { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); font-weight: 700; }
+
+/* Qualità/prezzo */
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+.stat-label { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-3); font-weight: 600; }
+.stat-value { font-size: 1.7rem; font-weight: 700; line-height: 1.2; margin: 2px 0; }
+.stat-value small { font-size: .85rem; font-weight: 500; color: var(--ink-3); }
+.chart-legend { gap: 16px; font-size: .86rem; color: var(--ink-2); margin-bottom: 6px; }
+.chart-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.chart-wrap { position: relative; width: 100%; min-height: 280px; }
+.vchart { display: block; overflow: visible; font: 12px system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; touch-action: manipulation; }
+.vchart .grid { stroke: var(--line); stroke-width: 1; }
+.vchart .budget { stroke: var(--ink-3); stroke-width: 1; }
+.vchart .tick { fill: var(--ink-3); font-variant-numeric: tabular-nums; }
+.vchart .axis-title { fill: var(--ink-2); font-weight: 600; }
+.vchart .plabel { fill: var(--ink); font-weight: 600; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.frontier-line { fill: none; stroke: var(--q-ok); stroke-width: 2; stroke-linejoin: round; opacity: .75; }
+.pt-ok { fill: var(--q-ok); stroke: var(--surface); stroke-width: 2; }
+.pt-check { fill: var(--surface); stroke: var(--q-check); stroke-width: 2; }
+.vchart a { cursor: pointer; outline: none; }
+.vchart a.hover circle, .vchart a:focus-visible circle { stroke: var(--ink); stroke-width: 2.5; }
+.tip { position: absolute; z-index: 5; max-width: 260px; padding: 8px 10px; border-radius: 8px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); font-size: .82rem; line-height: 1.4; pointer-events: none; }
+table.vtable { border-collapse: collapse; width: 100%; min-width: 560px; }
+table.vtable th, table.vtable td { border-bottom: 1px solid var(--line); padding: 7px 8px; text-align: left; vertical-align: top; font-size: .9rem; }
+table.vtable thead th { color: var(--ink-3); font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+table.vtable .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 /* Metodo */
 .weights label { display: grid; grid-template-columns: 1fr 160px 36px; align-items: center; gap: 10px; padding: 4px 0; }

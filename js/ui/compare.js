@@ -1,6 +1,9 @@
 import { state, toggleIn, save } from '@app/js/state.js';
 import { esc, productImage, wireImageFallbacks, badge } from '@app/js/ui/dom.js';
 import { euro, cm, range, int, STATUS_LABEL, WIDTH_LABEL, ARMS_LABEL, SHIP_LABEL } from '@app/js/logic/format.js';
+import { eurPerPoint, valueTotal } from '@app/js/logic/value.js';
+
+const epp = (e) => eurPerPoint(valueTotal(e), e.score.quality);
 
 // Ogni riga: etichetta, valore da mostrare, valore numerico per evidenziare il migliore.
 const ROWS = [
@@ -22,6 +25,8 @@ const ROWS = [
   ['Valutazione', (e) => (e.chair.rating ? `★ ${String(e.chair.rating.v).replace('.', ',')} (${int(e.chair.rating.n)})` : '—'), (e) => e.score.bayes, 'max'],
   ['Garanzia / reso', (e) => `${esc(e.chair.warranty || '—')}<div class="small muted">${esc(e.chair.returns || '')}</div>`],
   ['Punteggio editoriale', (e) => `${String(e.score.value).replace('.', ',')}/100`, (e) => e.score.value, 'max'],
+  ['Indice di qualità (senza prezzo)', (e) => `${String(e.score.quality).replace('.', ',')}/100`, (e) => e.score.quality, 'max'],
+  ['Euro per punto di qualità', (e) => (epp(e) != null ? `${epp(e).toFixed(2).replace('.', ',')} €${e.assess.budget.total == null ? '<div class="small muted">sul solo prezzo</div>' : ''}` : '—'), (e) => epp(e), 'min'],
 ];
 
 export function render(root, ctx) {

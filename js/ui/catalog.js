@@ -1,6 +1,8 @@
 import { state, save, toggleIn } from '@app/js/state.js';
 import { esc, productImage, wireImageFallbacks, badge, toast } from '@app/js/ui/dom.js';
-import { euro, cm, int, STATUS_LABEL, SHIP_LABEL, REF_LABEL } from '@app/js/logic/format.js';
+import { euro, cm, int, STATUS_LABEL, SHIP_LABEL, REF_LABEL, WIDTH_LABEL, ARMS_LABEL } from '@app/js/logic/format.js';
+import { eurPerPoint } from '@app/js/logic/value.js';
+import { toCSV } from '@app/js/logic/csv.js';
 
 const DEFAULT_FILTERS = {
   q: '',
@@ -13,6 +15,7 @@ const DEFAULT_FILTERS = {
   arms: 'any',
   features: [],
   favOnly: false,
+  frontierOnly: false,
 };
 
 const FEATURES = {
@@ -31,18 +34,22 @@ const SORTS = {
   depth: { label: 'Profondità (cresc.)', fn: (a, b) => (a.chair.depth?.v ?? 999) - (b.chair.depth?.v ?? 999) },
   rating: { label: 'Valutazione (desc.)', fn: (a, b) => (b.chair.rating?.v ?? 0) - (a.chair.rating?.v ?? 0) },
   reviews: { label: 'Numero recensioni (desc.)', fn: (a, b) => (b.chair.rating?.n ?? 0) - (a.chair.rating?.n ?? 0) },
+  value: { label: 'Qualità/prezzo (€ per punto, cresc.)', fn: (a, b) => statusRank(a) - statusRank(b) || (epp(a) ?? Infinity) - (epp(b) ?? Infinity) },
+  quality: { label: 'Indice di qualità (desc.)', fn: (a, b) => b.score.quality - a.score.quality },
 };
 
 const statusRank = (e) => ({ idonea: 0, 'da-verificare': 1, esclusa: 2 }[e.assess.status]);
 const total = (e) => e.assess.budget.total ?? e.chair.price;
 const armVal = (e) => (e.chair.arms?.type === 'nessuno' ? 0 : e.assess.arms.value ?? 999);
+const epp = (e) => eurPerPoint(total(e), e.score.quality);
+const dec = (n) => String(n).replace('.', ',');
 
 function filters() {
   if (!state.filters) state.filters = structuredClone(DEFAULT_FILTERS);
   return { ...DEFAULT_FILTERS, ...state.filters };
 }
 
-export function applyFilters(list, f) {
+export function applyFilters(list, f, frontier = new Set()) {
   const q = f.q.trim().toLowerCase();
   return list.filter((e) => {
     const c = e.chair;
@@ -62,17 +69,19 @@ export function applyFilters(list, f) {
     }
     for (const k of f.features) if (!FEATURES[k].test(c)) return false;
     if (f.favOnly && !state.favorites.includes(c.id)) return false;
+    if (f.frontierOnly && !frontier.has(c.id)) return false;
     return true;
   });
 }
 
-function card(e) {
+function card(e, frontier) {
   const c = e.chair;
   const a = e.assess;
   const fav = state.favorites.includes(c.id);
   const inCmp = state.compare.includes(c.id);
   const ship = SHIP_LABEL[c.shipping?.status] || '';
   const totalTxt = a.budget.total != null ? euro(a.budget.total) : `${euro(c.price)} + sped.`;
+  const onFrontier = frontier.has(c.id);
   const disc = e.discount?.reliable ? `<span class="chip ok" title="Rispetto al ${esc(REF_LABEL[e.discount.ref.kind])} di ${euro(e.discount.ref.v)}">−${e.discount.pct}% vs ${esc(REF_LABEL[e.discount.ref.kind])}</span>` : '';
   const wCls = { ok: 'ok', derivata: 'warn', parziale: 'warn', mancante: 'warn', incompatibile: 'bad' }[a.width.status];
   const aCls = { ok: 'ok', compromesso: 'warn', incerta: 'warn', mancante: 'warn', incompatibile: 'bad' }[a.arms.status];
@@ -84,12 +93,12 @@ function card(e) {
       <div class="store">${esc(c.store)} · ${esc(c.seller)}</div>
       <a class="name" href="#/sedia/${encodeURIComponent(c.id)}" title="${esc(c.name)}">${esc(c.brand)} ${esc(c.model)}</a>
       <div class="price">${totalTxt} <small>${esc(ship)}</small></div>
-      <div class="chips">${disc}
+      <div class="chips">${onFrontier ? '<a class="chip ok" href="#/valore" title="Nessuna sedia idonea è insieme migliore e meno cara">Frontiera qualità-prezzo</a>' : ''}${disc}
         <span class="chip ${wCls}">L ${a.width.value != null ? cm(a.width.value) : 'n.d.'}</span>
         <span class="chip ${aCls}">${armsTxt}</span>
         ${c.depth?.v ? `<span class="chip">P ${cm(c.depth.v)}</span>` : ''}
       </div>
-      <div class="small muted">${c.rating ? `★ ${String(c.rating.v).replace('.', ',')} · ${int(c.rating.n)} recensioni` : 'Nessuna recensione rilevata'} · punteggio ${String(e.score.value).replace('.', ',')}</div>
+      <div class="small muted">${c.rating ? `★ ${String(c.rating.v).replace('.', ',')} · ${int(c.rating.n)} recensioni` : 'Nessuna recensione rilevata'} · punteggio ${dec(e.score.value)} · qualità ${dec(e.score.quality)}${epp(e) != null ? ` (${dec(epp(e).toFixed(2))} € a punto)` : ''}</div>
       <div class="actions">
         <a class="btn" href="#/sedia/${encodeURIComponent(c.id)}">Dettagli</a>
         <button class="btn ${inCmp ? 'on' : ''}" data-act="cmp" aria-pressed="${inCmp}">${inCmp ? '✓ In confronto' : 'Confronta'}</button>
@@ -109,6 +118,7 @@ export function render(root, ctx) {
       <div><h1>Catalogo</h1><p class="muted small" style="margin:0">Tutti i modelli analizzati, con stato di idoneità calcolato dai vincoli (larghezza ≤ 69 cm, braccioli ≤ 69 cm da terra, totale ≤ 120 €).</p></div>
       <div class="btn-row">
         <button class="btn filter-toggle" id="ftoggle">Filtri</button>
+        <button class="btn" id="csv" title="Scarica i modelli mostrati (filtri e ordinamento attuali) in un file per Excel">Esporta CSV</button>
         <label class="small">Ordina <select id="sort">${Object.entries(SORTS).map(([k, s]) => `<option value="${k}" ${state.sort === k ? 'selected' : ''}>${s.label}</option>`).join('')}</select></label>
       </div>
     </div>
@@ -135,6 +145,7 @@ export function render(root, ctx) {
         ${stores.map((s) => chk('stores', s, f.stores, s)).join('')}
         <h3>Altro</h3>
         <label><input type="checkbox" id="favOnly" ${f.favOnly ? 'checked' : ''}> Solo preferiti (${state.favorites.length})</label>
+        <label><input type="checkbox" id="frontierOnly" ${f.frontierOnly ? 'checked' : ''}> Solo frontiera qualità-prezzo</label>
         <label><input type="checkbox" id="imgs" ${state.showImages ? 'checked' : ''}> Mostra immagini dei negozi</label>
         <p class="small muted">Le immagini sono caricate dai server dei negozi. Disattivandole non viene contattato nessun sito esterno.</p>
         <button class="btn" id="reset" style="width:100%">Azzera filtri</button>
@@ -146,11 +157,12 @@ export function render(root, ctx) {
     </div>`;
 
   const grid = root.querySelector('#grid');
+  const frontier = new Set(ctx.picks.value.frontier.map((i) => i.id));
+  const visible = () => applyFilters(ctx.evaluated, filters(), frontier).sort(SORTS[state.sort]?.fn || SORTS.score.fn);
   const draw = () => {
-    const ff = filters();
-    const list = applyFilters(ctx.evaluated, ff).sort(SORTS[state.sort]?.fn || SORTS.score.fn);
+    const list = visible();
     root.querySelector('#count').textContent = `${list.length} di ${ctx.evaluated.length} modelli`;
-    grid.innerHTML = list.length ? list.map(card).join('') : '<div class="empty">Nessun modello con questi filtri.</div>';
+    grid.innerHTML = list.length ? list.map((e) => card(e, frontier)).join('') : '<div class="empty">Nessun modello con questi filtri.</div>';
     wireImageFallbacks(grid);
   };
   const setF = (patch) => { state.filters = { ...filters(), ...patch }; save(); draw(); };
@@ -162,6 +174,12 @@ export function render(root, ctx) {
   root.querySelector('#unkW').addEventListener('change', (ev) => setF({ includeUnknownWidth: ev.target.checked }));
   root.querySelector('#arms').addEventListener('change', (ev) => setF({ arms: ev.target.value }));
   root.querySelector('#favOnly').addEventListener('change', (ev) => setF({ favOnly: ev.target.checked }));
+  root.querySelector('#frontierOnly').addEventListener('change', (ev) => setF({ frontierOnly: ev.target.checked }));
+  root.querySelector('#csv').addEventListener('click', () => {
+    const list = visible();
+    if (!list.length) { toast('Nessun modello da esportare con questi filtri.'); return; }
+    downloadCSV(list, frontier, ctx.data.catalog.checkedDate);
+  });
   root.querySelector('#imgs').addEventListener('change', (ev) => { state.showImages = ev.target.checked; save(); draw(); });
   root.querySelector('#reset').addEventListener('click', () => { state.filters = structuredClone(DEFAULT_FILTERS); save(); render(root, ctx); });
   root.querySelector('#ftoggle').addEventListener('click', () => root.querySelector('#filters').classList.toggle('open'));
@@ -180,4 +198,42 @@ export function render(root, ctx) {
     draw();
   });
   draw();
+}
+
+// Colonne dell'esportazione: fatti e calcoli già mostrati nell'app, nessun dato nuovo.
+export const CSV_COLUMNS = (frontier) => [
+  { label: 'ID', get: (e) => e.chair.id },
+  { label: 'Marca', get: (e) => e.chair.brand },
+  { label: 'Modello', get: (e) => e.chair.model },
+  { label: 'Negozio', get: (e) => e.chair.store },
+  { label: 'Venditore', get: (e) => e.chair.seller },
+  { label: 'Esito', get: (e) => STATUS_LABEL[e.assess.status] },
+  { label: 'Prezzo €', get: (e) => e.chair.price },
+  { label: 'Spedizione', get: (e) => SHIP_LABEL[e.chair.shipping?.status] },
+  { label: 'Totale €', get: (e) => e.assess.budget.total },
+  { label: 'Larghezza cm', get: (e) => e.assess.width.value },
+  { label: 'Larghezza: stato', get: (e) => WIDTH_LABEL[e.assess.width.status] },
+  { label: 'Braccioli da terra cm', get: (e) => (e.chair.arms?.type === 'nessuno' ? null : e.assess.arms.value) },
+  { label: 'Braccioli: stato', get: (e) => ARMS_LABEL[e.assess.arms.status] },
+  { label: 'Profondità cm', get: (e) => e.chair.depth?.v },
+  { label: 'Valutazione', get: (e) => e.chair.rating?.v },
+  { label: 'N. valutazioni', get: (e) => e.chair.rating?.n },
+  { label: 'Punteggio editoriale', get: (e) => e.score.value },
+  { label: 'Indice di qualità', get: (e) => e.score.quality },
+  { label: '€ per punto qualità', get: (e) => epp(e) },
+  { label: 'Frontiera qualità-prezzo', get: (e) => (frontier.has(e.chair.id) ? 'sì' : '') },
+  { label: 'Motivi', get: (e) => e.assess.reasons.join(' | ') },
+  { label: 'Scheda', get: (e) => e.chair.url },
+];
+
+function downloadCSV(list, frontier, date) {
+  const blob = new Blob([toCSV(CSV_COLUMNS(frontier), list)], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `sedie-120-${date}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  toast(`Esportati ${list.length} modelli in ${a.download}`);
 }
