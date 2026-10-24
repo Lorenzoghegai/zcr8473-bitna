@@ -1,6 +1,6 @@
 import { loadAll } from '@app/js/data.js';
-import { evaluate, picks } from '@app/js/logic/score.js';
-import { state, save } from '@app/js/state.js';
+import { createContext } from '@app/js/context.js';
+import { save } from '@app/js/state.js';
 import { esc } from '@app/js/ui/dom.js';
 import * as catalog from '@app/js/ui/catalog.js';
 import * as detail from '@app/js/ui/detail.js';
@@ -12,7 +12,7 @@ import * as conventions from '@app/js/ui/conventions.js';
 import * as room from '@app/js/ui/room.js';
 
 const app = document.getElementById('app');
-const ctx = { data: null, evaluated: [], byId: new Map(), picks: null };
+let ctx = null;
 
 const ROUTES = {
   catalogo: catalog,
@@ -24,18 +24,6 @@ const ROUTES = {
   convenzioni: conventions,
   stanza: room,
 };
-
-ctx.recompute = function recompute() {
-  ctx.evaluated = evaluate(ctx.data.chairs, state.weights, ctx.constraints);
-  ctx.byId = new Map(ctx.evaluated.map((e) => [e.chair.id, e]));
-  ctx.picks = picks(ctx.evaluated);
-};
-
-ctx.updateCounts = function updateCounts() {
-  document.getElementById('cmp-count').textContent = state.compare.length;
-};
-
-ctx.go = (hash) => { location.hash = hash; };
 
 let current = null;
 
@@ -56,16 +44,16 @@ function route() {
 }
 
 async function init() {
+  let data;
   try {
-    ctx.data = await loadAll('./data/');
+    data = await loadAll('./data/');
   } catch (err) {
     app.innerHTML = `<div class="panel"><h2>Dati non disponibili</h2><p>${esc(err.message)}</p>
-      <p>L'app va aperta tramite un piccolo server locale (non con doppio clic sul file): vedi il README, comando <code>python -m http.server 8765</code>.</p></div>`;
+      <p>Per usarla senza server apri <code>Sedie-120.html</code> (doppio clic). Questa versione di sviluppo va aperta con il server locale: <code>avvia-con-server.bat</code> oppure <code>python tools/serve.py --open</code> (vedi il README).</p></div>`;
     return;
   }
+  ctx = createContext(data);
   const { catalog: cat } = ctx.data;
-  ctx.constraints = { maxWidthCm: cat.constraints.maxWidthCm, maxArmHeightCm: cat.constraints.maxArmHeightCm, budgetEur: cat.budgetEur };
-  ctx.recompute();
   const counts = ctx.evaluated.reduce((m, e) => ((m[e.assess.status] = (m[e.assess.status] || 0) + 1), m), {});
   document.getElementById('databar').innerHTML =
     `Dati rilevati il <strong>${esc(cat.checkWindow)}</strong> · ${ctx.data.chairs.length} modelli analizzati: ` +

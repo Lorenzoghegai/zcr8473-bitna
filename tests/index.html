@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test — Sedie entro 120 €</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script>
+    // Stato dei test separato da quello dell'app (vedi js/state.js).
+    window.__SEDIE_STATE_KEY__ = 'sedie120:test';
+    try {
+      localStorage.removeItem('sedie120:test');
+      window.__APP_STATE_BEFORE__ = localStorage.getItem('sedie120:v1');
+    } catch { /* archiviazione non disponibile */ }
+  </script>
+  <script type="importmap">{"imports": {"@app/": "../", "three": "../vendor/three/three.module.min.js", "three/addons/": "../vendor/three/addons/"}}</script>
+  <style>
+    #summary { font-size: 1.2rem; font-weight: 700; }
+    #summary.ok { color: var(--ok); } #summary.ko { color: var(--bad); }
+    #results { padding-left: 22px; }
+    #results li { margin: 3px 0; }
+    #results li.ko { color: var(--bad); }
+    #results .err { font: .85rem ui-monospace, monospace; color: var(--ink-2); margin: 2px 0 6px; }
+    #sandbox { width: 1000px; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Test dell'app</h1>
+    <p class="muted small">Logica (vincoli, punteggio, qualità-prezzo, geometria, gift card, CSV), invarianti sui dati rilevati e disegno delle pagine. Non contatta siti esterni.</p>
+    <p id="summary">In esecuzione…</p>
+    <ol id="results"></ol>
+    <p><a href="../">← Torna all'app</a></p>
+  </main>
+  <div id="sandbox" aria-hidden="true"></div>
+  <script type="module" src="./run-browser.js"></script>
+</body>
+</html>

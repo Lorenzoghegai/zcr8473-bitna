@@ -148,3 +148,30 @@ export function picks(evaluated) {
   const bestValue = value.ranked[0]?.e || null;
   return { bestOverall, alternatives, smallSpace, adjust, bestDeal, bestValue, value, toVerify, eligibleCount: ok.length };
 }
+
+// Solidità della prima scelta: ricalcola le Scelte variando un peso alla volta
+// (di default −50% e +50%) e conta in quante varianti la prima resta prima.
+export function rankingStability(chairs, weights, constraints, factors = [0.5, 1.5]) {
+  const base = picks(evaluate(chairs, weights, constraints)).bestOverall;
+  if (!base) return null;
+  const variants = [];
+  for (const k of Object.keys(weights)) {
+    if (!weights[k]) continue;
+    for (const f of factors) {
+      const top = picks(evaluate(chairs, { ...weights, [k]: weights[k] * f }, constraints)).bestOverall;
+      variants.push({ key: k, factor: f, winner: top?.chair.id ?? null });
+    }
+  }
+  const rivals = new Map();
+  for (const v of variants.filter((x) => x.winner !== base.chair.id)) {
+    const r = rivals.get(v.winner) || { id: v.winner, variants: [] };
+    r.variants.push(v);
+    rivals.set(v.winner, r);
+  }
+  return {
+    id: base.chair.id,
+    kept: variants.length - [...rivals.values()].reduce((a, r) => a + r.variants.length, 0),
+    total: variants.length,
+    rivals: [...rivals.values()].sort((a, b) => b.variants.length - a.variants.length),
+  };
+}

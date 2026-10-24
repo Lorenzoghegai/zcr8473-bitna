@@ -1,7 +1,8 @@
 // Stato dell'interfaccia salvato solo in locale (localStorage del browser).
 import { DEFAULT_WEIGHTS } from '@app/js/logic/score.js';
 
-const KEY = 'sedie120:v1';
+// La pagina dei test usa una chiave propria per non toccare le impostazioni salvate.
+const KEY = globalThis.__SEDIE_STATE_KEY__ || 'sedie120:v1';
 
 const defaults = () => ({
   weights: { ...DEFAULT_WEIGHTS },

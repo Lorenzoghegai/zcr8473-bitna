@@ -12,8 +12,8 @@ const PS = { verificato: 'ok', pubblicizzato: 'warn', 'non-verificato': 'warn', 
 function giftTable(total, gc) {
   const r = giftCardOutlay(total, gc);
   return `<p class="small">Totale da pagare: <strong>${euro(total)}</strong> · risparmio teorico al 12,5%: ${euro(r.theoretical)}</p>
-    <table class="compare" style="min-width:0"><thead><tr><th>Scenario</th><td><strong>Carte</strong></td><td><strong>Esborso</strong></td><td><strong>Credito residuo</strong></td><td><strong>Risparmio reale</strong></td></tr></thead>
-    <tbody>${r.scenarios.map((s) => `<tr><th>${esc(s.label)}</th><td>${s.cards.map(euro).join(' + ')}</td><td>${euro(s.outlay)}</td><td>${euro(s.leftover)}</td><td>${euro(s.realSaving)}<div class="small muted">${euro(s.fullSaving)} se usi il residuo</div></td></tr>`).join('')}</tbody></table>
+    <div class="compare-wrap"><table class="compare" style="min-width:0"><thead><tr><th>Scenario</th><td><strong>Carte</strong></td><td><strong>Esborso</strong></td><td><strong>Credito residuo</strong></td><td><strong>Risparmio reale</strong></td></tr></thead>
+    <tbody>${r.scenarios.map((s) => `<tr><th>${esc(s.label)}</th><td>${s.cards.map(euro).join(' + ')}</td><td>${euro(s.outlay)}</td><td>${euro(s.leftover)}</td><td>${euro(s.realSaving)}<div class="small muted">${euro(s.fullSaving)} se usi il residuo</div></td></tr>`).join('')}</tbody></table></div>
     <p class="small muted">Sul sito home24 le carte di uno stesso ordine devono avere lo stesso valore: combinazioni di tagli diversi richiedono ordini separati. Le regole del portale aziendale vanno verificate.</p>`;
 }
 

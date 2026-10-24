@@ -1,7 +1,7 @@
 import { esc, productImage, wireImageFallbacks, badge } from '@app/js/ui/dom.js';
 import { euro, cm, int, STATUS_LABEL, REF_LABEL } from '@app/js/logic/format.js';
 import { state } from '@app/js/state.js';
-import { DEFAULT_WEIGHTS } from '@app/js/logic/score.js';
+import { DEFAULT_WEIGHTS, WEIGHT_LABELS, rankingStability } from '@app/js/logic/score.js';
 
 function facts(e) {
   const c = e.chair;
@@ -52,6 +52,7 @@ export function render(root, ctx) {
       ${pickCard('Migliore per regolazioni documentate', p.adjust, 'Più regolazioni dichiarate dal venditore tra le idonee.')}
       ${pickCard('Migliore offerta verificata', deal, deal ? `Prezzo ${euro(deal.chair.price)}, −${deal.discount.pct}% rispetto al ${esc(REF_LABEL[deal.discount.ref.kind])} di ${euro(deal.discount.ref.v)} (riferimento affidabile; il «prezzo consigliato» non è considerato).` : '')}
     </div>
+    ${stabilityPanel(ctx)}
     <h2 style="margin-top:22px">Alternative</h2>
     <div class="picks">${p.alternatives.map((e, i) => pickCard(`Alternativa ${i + 1}`, e)).join('')}</div>
     <h2 style="margin-top:22px">Promettenti ma da verificare</h2>
@@ -67,4 +68,22 @@ export function render(root, ctx) {
       <p class="small">Fatti verificati (misure, prezzi, condizioni) e valutazioni (punteggio) sono separati: il punteggio è un ordinamento editoriale con pesi dichiarati, non una misura scientifica né una garanzia di comfort. Le recensioni sono riassunti del negozio e conteggi di menzioni, non test indipendenti. Le misure «derivate» sono calcolate da quote documentate e mostrate con il calcolo nella scheda.</p>
     </div>`;
   wireImageFallbacks(root);
+}
+
+// Quanto dipende la prima scelta dai pesi: margine sulla seconda e varianti ±50%.
+function stabilityPanel(ctx) {
+  const p = ctx.picks;
+  if (!p.bestOverall) return '';
+  const st = rankingStability(ctx.data.chairs, state.weights, ctx.constraints);
+  const second = p.alternatives[0];
+  const gap = second ? Math.round((p.bestOverall.score.value - second.score.value) * 10) / 10 : null;
+  const label = (id) => { const e = ctx.byId.get(id); return e ? `${esc(e.chair.brand)} ${esc(e.chair.model.replace(/\s*[(«].*$/, ''))}` : esc(id); };
+  const solid = st.kept === st.total;
+  const pct = (f) => `${f < 1 ? '−' : '+'}${Math.round(Math.abs(f - 1) * 100)}%`;
+  return `<div class="panel" style="margin-top:14px">
+    <h2>Quanto è solida la prima scelta? ${badge(solid ? 'ok' : st.kept * 2 >= st.total ? 'warn' : 'bad', solid ? 'solida' : 'sensibile ai pesi')}</h2>
+    <p class="small">${second ? `Margine sulla seconda (${label(second.chair.id)}): <strong>${String(gap).replace('.', ',')} punti</strong>. ` : ''}Variando un peso alla volta del −50% e del +50%, ${label(st.id)} resta prima in <strong>${st.kept} casi su ${st.total}</strong>.</p>
+    ${st.rivals.length ? `<ul class="tight small">${st.rivals.map((r) => `<li>Vince <a href="#/sedia/${encodeURIComponent(r.id)}">${label(r.id)}</a> con: ${r.variants.map((v) => `${esc(WEIGHT_LABELS[v.key].toLowerCase())} ${pct(v.factor)}`).join(', ')}</li>`).join('')}</ul>
+    <p class="small muted">La prima posizione dipende da come pesi i criteri: confronta le sedie in gioco (pagina Confronto) e regola i pesi in «Metodo e fonti» secondo le tue priorità.</p>` : ''}
+  </div>`;
 }
