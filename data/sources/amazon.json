@@ -1,0 +1,3296 @@
+[
+  {
+    "id": "amz-songmics-obn22bk",
+    "name": "SONGMICS Sedia da Ufficio, Poltrona Girevole, Regolabile in Altezza",
+    "brand": "SONGMICS",
+    "model": "OBN22BK (collezione Kime)",
+    "code": "ASIN B082PWGGMD",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B082PWGGMD",
+    "image": "https://m.media-amazon.com/images/I/716sVrBRM6L._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 64.79,
+    "priceRef": {
+      "v": 71.99,
+      "kind": "mediano"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA venerdì 30 ottobre» (offerta venduta e spedita da Amazon)"
+    },
+    "availability": "Disponibilità immediata",
+    "delivery": "Stima 30 ottobre",
+    "widths": [
+      {
+        "v": 64,
+        "kind": "base",
+        "src": "diagramma ufficiale"
+      },
+      {
+        "v": 64,
+        "kind": "ingombro",
+        "src": "scheda (64P × 64L × 104H)"
+      }
+    ],
+    "depth": {
+      "v": 64,
+      "src": "scheda"
+    },
+    "height": {
+      "min": 96,
+      "max": 104,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 43,
+      "max": 51,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 49,
+      "d": 50
+    },
+    "back": {
+      "w": 51,
+      "h": 53
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 64,
+      "max": 72,
+      "src": "diagramma (quota da terra)"
+    },
+    "lumbar": "Sagomatura fissa dello schienale",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "15° (inclinazione libera)",
+      "lock": false
+    },
+    "materials": "Seduta e schienale in rete; base «lega di acciaio, nylon»",
+    "maxLoad": {
+      "v": 120
+    },
+    "weightKg": 10.3,
+    "warranty": "Non indicata in scheda",
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.4,
+      "n": 8377,
+      "platform": "Amazon.it",
+      "dist": "5★ 65% · 4★ 24% · 3★ 6% · 2★ 2% · 1★ 3%"
+    },
+    "pros": [
+      "Comodità: 448 menzioni positive su 493",
+      "Montaggio semplice: 310 su 348",
+      "Rapporto qualità-prezzo: 297 su 331"
+    ],
+    "cons": [
+      "Ergonomia giudicata in modo contrastante",
+      "Robustezza: 32 menzioni negative su 141",
+      "Supporto lombare: 20 negative su 80"
+    ],
+    "issues": [
+      "Scheda: «Stile del braccio: Senza braccioli», ma foto e diagramma mostrano braccioli fissi ad anello",
+      "Scheda: taglia 58 × 60,5 × (96–104) in contrasto con 64 × 64: usato il diagramma (base 64 cm)",
+      "Nessuna regolazione di tensione o blocco dell'inclinazione documentata",
+      "Altezza braccioli in scheda 72 cm = valore massimo del diagramma"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B082PWGGMD"
+      },
+      {
+        "label": "Diagramma dimensioni (immagine della scheda)",
+        "url": "https://m.media-amazon.com/images/I/71BccfSHnfL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn043bh02",
+    "name": "SONGMICS Sedia Ufficio Ergonomica, Sedia Scrivania Girevole in Rete, Supporto Lombare, Funzione Oscillante, Braccioli, Studio Camera da Letto, Nero Inchiostro OBN043BH02",
+    "brand": "SONGMICS",
+    "model": "OBN043BH02",
+    "code": "ASIN B0FHQD3QPG",
+    "variant": "Nero Inchiostro",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0FHQD3QPG",
+    "image": "https://m.media-amazon.com/images/I/81RxE6Lw2HL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 53.99,
+    "priceRef": {
+      "v": 59.99,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA venerdì 30 ottobre» (venduto e spedito da Amazon)"
+    },
+    "availability": "Disponibile",
+    "delivery": "Stima 30 ottobre",
+    "widths": [
+      {
+        "v": 60,
+        "kind": "base",
+        "src": "diagramma ufficiale (vista frontale)"
+      }
+    ],
+    "depth": {
+      "v": 60,
+      "src": "diagramma (vista laterale, base)"
+    },
+    "height": {
+      "min": 95.5,
+      "max": 105.5,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 47,
+      "max": 57,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 51,
+      "d": 47
+    },
+    "back": {
+      "h": 53
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 65,
+      "max": 75,
+      "src": "diagramma (quota da terra)"
+    },
+    "lumbar": "Cuscino lombare imbottito, fisso",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "90–105°",
+      "lock": false
+    },
+    "materials": "Schienale in rete, seduta imbottita (8 cm), base a stella in metallo",
+    "maxLoad": {
+      "v": 120,
+      "note": "Diagramma: altezza utente massima 180 cm"
+    },
+    "warranty": "Non indicata in scheda",
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.4,
+      "n": 518,
+      "platform": "Amazon.it",
+      "dist": "5★ 69% · 4★ 18% · 3★ 4% · 2★ 3% · 1★ 6%"
+    },
+    "pros": [
+      "Comodità: 28 positive su 31",
+      "Montaggio: 22 positive su 27",
+      "Estetica apprezzata"
+    ],
+    "cons": [
+      "Stabilità: 4 negative su 12",
+      "Regolabilità: 3 negative su 6",
+      "Una recensione segnala difficoltà ad agganciare i braccioli"
+    ],
+    "issues": [
+      "Scheda con dimensioni scambiate (60 × 105,5 × 60)",
+      "La galleria dell'inserzione mescola anche il modello OBN042 (braccioli ribaltabili): al momento dell'ordine verificare che la variante sia OBN043BH02",
+      "«Profondità del sedile 8 cm» in scheda corrisponde allo spessore del cuscino",
+      "Recensioni poche per aspetto (31 menzioni di comodità): valutazione meno solida dei modelli con migliaia di recensioni"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0FHQD3QPG"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/71+EYBpTB0L._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn37bk",
+    "name": "SONGMICS Sedia da Ufficio, Sedia da Computer Ergonomica, con Poggiatesta",
+    "brand": "SONGMICS",
+    "model": "OBN37BK (collezione Kime)",
+    "code": "ASIN B07ZCM9YH1",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B07ZCM9YH1",
+    "image": "https://m.media-amazon.com/images/I/81pA0ACpAPL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 79.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA venerdì 30 ottobre» (venduto e spedito da Amazon)"
+    },
+    "availability": "Disponibilità immediata",
+    "delivery": "Stima 30 ottobre",
+    "widths": [
+      {
+        "v": 64,
+        "kind": "base",
+        "src": "diagramma ufficiale"
+      },
+      {
+        "v": 64,
+        "kind": "ingombro",
+        "src": "scheda (taglia 64 × 64)"
+      }
+    ],
+    "depth": {
+      "v": 66,
+      "src": "scheda (66P); il diagramma quota la base 64 cm"
+    },
+    "height": {
+      "min": 99,
+      "max": 107,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 54,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 53,
+      "d": 53
+    },
+    "back": {
+      "w": 51,
+      "h": 53
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "min": 68,
+      "max": 76,
+      "src": "diagramma (quota da terra)"
+    },
+    "lumbar": "Regolabile (dichiarato nel testo)",
+    "headrest": "nessuno (variante «Senza Poggiatesta»)",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "90–105°",
+      "lock": false
+    },
+    "materials": "Schienale in rete, seduta in spugna 8 cm, base in acciaio",
+    "maxLoad": {
+      "v": 120,
+      "note": "Diagramma: altezza utente massima 185 cm"
+    },
+    "weightKg": 10.5,
+    "warranty": "Non indicata in scheda",
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.4,
+      "n": 8088,
+      "platform": "Amazon.it",
+      "dist": "5★ 64% · 4★ 24% · 3★ 7% · 2★ 2% · 1★ 3%"
+    },
+    "pros": [
+      "Comodità: 472 positive su 506",
+      "Supporto lombare: 80 positive su 101",
+      "Seduta ampia; braccioli alzabili apprezzati"
+    ],
+    "cons": [
+      "Reclinabilità: 59 negative su 93",
+      "Regolabilità giudicata in modo contrastante",
+      "Un cliente segnala che la seduta «tende in avanti»"
+    ],
+    "issues": [
+      "Altezza totale: 99–107 (diagramma) vs 110–118 (testo) vs 107 (scheda)",
+      "Il titolo cita un poggiatesta ma la variante è «Senza Poggiatesta»",
+      "Margine braccioli: solo 1 cm sotto i 69 cm a seduta minima"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B07ZCM9YH1"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/715-1oADtAL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn86bk",
+    "name": "SONGMICS Sedia da Ufficio Girevole e Regolabile con Poggiatesta",
+    "brand": "SONGMICS",
+    "model": "OBN86BK (collezione Kime)",
+    "code": "ASIN B077MYVDQY",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B077MYVDQY",
+    "image": "https://m.media-amazon.com/images/I/81S4D9C-GQL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 103.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA venerdì 30 ottobre»"
+    },
+    "availability": "Disponibilità immediata",
+    "delivery": "Stima 30 ottobre",
+    "widths": [
+      {
+        "v": 68,
+        "kind": "base",
+        "src": "diagramma ufficiale"
+      }
+    ],
+    "depth": {
+      "v": 64,
+      "src": "scheda (64P)"
+    },
+    "height": {
+      "min": 116,
+      "max": 126,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 45,
+      "max": 55,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 51,
+      "d": 50
+    },
+    "back": {
+      "w": 47.5,
+      "h": 71
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "single": 76.5,
+      "src": "scheda «Altezza del braccio» (riferimento non indicato)",
+      "refUncertain": true
+    },
+    "lumbar": "Integrato nello schienale (in plastica, rigido per alcuni recensori)",
+    "headrest": "integrato (fisso)",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "non quantificato",
+      "lock": null
+    },
+    "materials": "Schienale in rete, base cromata",
+    "maxLoad": {
+      "v": 150
+    },
+    "weightKg": 13.5,
+    "warranty": "2 anni (produttore, da scheda)",
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.3,
+      "n": 9857,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 761 positive su 843",
+      "Qualità: 690 positive su 781",
+      "Braccioli ribaltabili apprezzati"
+    ],
+    "cons": [
+      "Reclinabilità: 98 negative su 195",
+      "Lombare in plastica troppo rigido per alcuni"
+    ],
+    "issues": [
+      "Larghezza: 68 (diagramma) vs 55 o 63,5 (campi della scheda)",
+      "Altezza braccioli da abbassati non quotata nel diagramma"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B077MYVDQY"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/71xcWhd3CVL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn034b01",
+    "name": "SONGMICS Sedia Ufficio Ergonomica, in Tessuto Traspirante",
+    "brand": "SONGMICS",
+    "model": "OBN034B01 (collezione Kime)",
+    "code": "ASIN B08CB31YL9",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B08CB31YL9",
+    "image": "https://m.media-amazon.com/images/I/61kKtA4ttWL._AC_SL500_.jpg",
+    "type": "tessuto",
+    "model3d": "mesh-high",
+    "price": 79.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA giovedì 29 ottobre»"
+    },
+    "availability": "Disponibilità immediata",
+    "delivery": "Stima 29 ottobre",
+    "widths": [
+      {
+        "v": 63,
+        "kind": "braccioli",
+        "src": "diagramma"
+      },
+      {
+        "v": 64,
+        "kind": "base-diametro",
+        "src": "diagramma (Φ 64)"
+      },
+      {
+        "v": 64,
+        "kind": "ingombro",
+        "src": "scheda (64 × 64)"
+      }
+    ],
+    "depth": {
+      "v": 64,
+      "src": "scheda"
+    },
+    "height": {
+      "min": 110,
+      "max": 120,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 46.5,
+      "max": 56.5,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 49,
+      "d": 44
+    },
+    "back": {
+      "w": 46,
+      "h": 65
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 67.5,
+      "max": 77.5,
+      "src": "diagramma",
+      "derived": "46,5 cm (seduta minima) + 21 cm (bracciolo sopra la seduta) = 67,5 cm"
+    },
+    "lumbar": "Sagomatura dello schienale",
+    "headrest": "nessuno (schienale alto)",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "90–105°",
+      "lock": false
+    },
+    "materials": "Tessuto traspirante, base cromata",
+    "maxLoad": {
+      "v": 120
+    },
+    "weightKg": 11,
+    "warranty": "Non indicata",
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.3,
+      "n": 2503,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 119 positive su 130",
+      "Montaggio: 84 positive su 87",
+      "Qualità del tessuto apprezzata"
+    ],
+    "cons": [
+      "Comfort giudicato in modo contrastante: 25 negative su 46"
+    ],
+    "issues": [
+      "Altezza totale 110–120 (diagramma) vs 119–129 (testo)",
+      "Altezza braccioli da terra ricavata (non quotata direttamente)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B08CB31YL9"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/61fCFAQp-wL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn042lh02",
+    "name": "SONGMICS Sedia Ufficio Ergonomica, Sedia Scrivania Girevole in Rete, Supporto Lombare, Funzione Oscillante, Braccioli Ribaltabili, Studio Camera da Letto, Beige Cappuccino e Bianco Nuvola OBN042LH02",
+    "brand": "SONGMICS",
+    "model": "OBN042LH02",
+    "code": "ASIN B0FHQ9Q28G",
+    "variant": "Beige Cappuccino + Bianco Nuvola",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0FHQ9Q28G",
+    "image": "https://m.media-amazon.com/images/I/71tK6AUKkaL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 68.39,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA venerdì 30 ottobre»"
+    },
+    "availability": "Disponibilità immediata",
+    "widths": [],
+    "seat": {
+      "w": 51
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "testo"
+    },
+    "lumbar": "Cuscino lombare imbottito, fisso",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "90–105°",
+      "lock": false
+    },
+    "materials": "Seduta e schienale in rete; seduta 8 cm",
+    "rating": {
+      "v": 4.4,
+      "n": 492,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 9 positive su 11 (pochi dati)"
+    ],
+    "cons": [
+      "Pochissime menzioni per aspetto"
+    ],
+    "issues": [
+      "Dimensioni in scheda incoerenti (60P × 105,5L × 60H)",
+      "Nessun diagramma quotato trovato nella galleria (che mescola altri modelli)",
+      "Probabilmente stesso telaio dell'OBN043BH02, ma non verificato"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0FHQ9Q28G"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obg019g01",
+    "name": "SONGMICS Sedia Scrivania, Ergonomica, Portata 110 kg",
+    "brand": "SONGMICS",
+    "model": "OBG019G01 (collezione Tyra)",
+    "code": "ASIN B085KTBNL9",
+    "variant": "Grigio",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B085KTBNL9",
+    "image": "https://m.media-amazon.com/images/I/81WYJxjB5BL._AC_SL500_.jpg",
+    "type": "design",
+    "model3d": "tub",
+    "price": 77.39,
+    "priceRef": {
+      "v": 85.99,
+      "kind": "mediano"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA giovedì 29 ottobre»"
+    },
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 65,
+        "kind": "ingombro",
+        "src": "scheda (64P × 65L × 93H)"
+      },
+      {
+        "v": 69,
+        "kind": "ingombro",
+        "src": "scheda (taglia 65 × 69 × (83–93))"
+      }
+    ],
+    "depth": {
+      "v": 65,
+      "src": "scheda"
+    },
+    "height": {
+      "min": 83,
+      "max": 93,
+      "src": "scheda"
+    },
+    "arms": {
+      "type": "integrati",
+      "src": "scheda: «Altezza del braccio 19 cm» (probabilmente sopra la seduta)",
+      "refUncertain": true
+    },
+    "lumbar": "nessuno dichiarato",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "nessuna"
+    },
+    "materials": "Tessuto effetto lino, telaio in acciaio e compensato, imbottitura in schiuma",
+    "maxLoad": {
+      "v": 110,
+      "note": "110 kg nel testo, 120 kg nella scheda"
+    },
+    "weightKg": 9.4,
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.6,
+      "n": 4345,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 90 positive su 95",
+      "Morbidezza ed estetica apprezzate"
+    ],
+    "cons": [
+      "Poltroncina d'arredo: nessuna regolazione oltre all'altezza"
+    ],
+    "issues": [
+      "Larghezza 65 o 69 cm a seconda del campo della scheda",
+      "Altezza braccioli da terra non ricavabile con certezza (altezza seduta minima non dichiarata)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B085KTBNL9"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obg22b",
+    "name": "SONGMICS Sedia da Ufficio, Ergonomica, Altezza Regolabile",
+    "brand": "SONGMICS",
+    "model": "OBG22B (collezione Stevon)",
+    "code": "ASIN B00UTBFWNU",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B00UTBFWNU",
+    "image": "https://m.media-amazon.com/images/I/81yETHsVj4L._AC_SL500_.jpg",
+    "type": "imbottita",
+    "model3d": "executive",
+    "price": 94.49,
+    "priceRef": {
+      "v": 99.99,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA giovedì 29 ottobre»"
+    },
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 70,
+        "kind": "base-diametro",
+        "src": "testo («Diametro base: 70 cm»; il campo 70L della scheda coincide)"
+      }
+    ],
+    "depth": {
+      "v": 73,
+      "src": "scheda (73P)"
+    },
+    "height": {
+      "min": 112,
+      "max": 122,
+      "src": "testo"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 56,
+      "src": "testo"
+    },
+    "seat": {
+      "w": 54,
+      "d": 50
+    },
+    "back": {
+      "h": 74
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 68,
+      "max": 78,
+      "src": "testo («Altezza braccioli: 68–78 cm»)"
+    },
+    "lumbar": "Sagomatura imbottita",
+    "headrest": "integrato",
+    "tilt": {
+      "kind": "bloccabile",
+      "range": "resistenza regolata automaticamente in base al peso",
+      "lock": true
+    },
+    "materials": "Similpelle (PU), imbottitura ad alta densità",
+    "maxLoad": {
+      "v": 150
+    },
+    "weightKg": 15.5,
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.4,
+      "n": 8941,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 959 positive su 1.012",
+      "Montaggio: 538 positive su 595"
+    ],
+    "cons": [
+      "Resistenza: 83 negative su 165 («si è rotta quasi subito» per alcuni)",
+      "Materiali: 48 negative su 155"
+    ],
+    "issues": [
+      "Larghezza nota solo come diametro della base (70 cm): ingombro lineare derivato",
+      "Larghezza dei braccioli non quotata",
+      "Margine braccioli: 1 cm"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B00UTBFWNU"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obg057w01",
+    "name": "SONGMICS Sedia da Ufficio con Sedile Largo, Design Ergonomico",
+    "brand": "SONGMICS",
+    "model": "OBG057W01 (collezione Stevon)",
+    "code": "ASIN B0CF5FBRHG",
+    "variant": "Bianco Crema + Marrone Cammello",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0CF5FBRHG",
+    "image": "https://m.media-amazon.com/images/I/616zQSyTpjL._AC_SL500_.jpg",
+    "type": "imbottita",
+    "model3d": "executive",
+    "price": 106.24,
+    "priceRef": {
+      "v": 124.99,
+      "kind": "mediano"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 70,
+        "kind": "base-diametro",
+        "src": "testo («Diametro base: Φ 70 cm»)"
+      }
+    ],
+    "seatHeight": {
+      "min": 51,
+      "max": 61,
+      "src": "testo"
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 70,
+      "max": 80,
+      "src": "testo («Altezza braccioli: 70–80 cm»)"
+    },
+    "maxLoad": {
+      "v": 150
+    },
+    "rating": {
+      "v": 4.2,
+      "n": 3485,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Braccioli fissi a 70 cm da terra anche a seduta minima"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0CF5FBRHG"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obg65bk",
+    "name": "SONGMICS Sedia da Ufficio, Poggiatesta Regolabile, Meccanismo Oscillante",
+    "brand": "SONGMICS",
+    "model": "OBG65BK",
+    "code": "ASIN B07BQQ37QV",
+    "variant": "Nero Inchiostro",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B07BQQ37QV",
+    "image": "https://m.media-amazon.com/images/I/61KmrWKUk5L._AC_SL500_.jpg",
+    "type": "gaming",
+    "model3d": "gaming",
+    "price": 107.09,
+    "priceRef": {
+      "v": 115.99,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "widths": [
+      {
+        "v": 70,
+        "kind": "ingombro",
+        "src": "scheda (70 × 70 × (119–137))"
+      }
+    ],
+    "arms": {
+      "type": "ribaltabili",
+      "single": 81,
+      "src": "scheda «Altezza del braccio»",
+      "refUncertain": true
+    },
+    "maxLoad": {
+      "v": 150
+    },
+    "rating": {
+      "v": 4.2,
+      "n": 3644,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Ingombro dichiarato 70 cm: potrebbe essere il diametro della base, ma la scheda non lo specifica"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B07BQQ37QV"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn066bh01",
+    "name": "SONGMICS Sedia da Ufficio Ergonomica, Portata Fino a 150 kg",
+    "brand": "SONGMICS",
+    "model": "OBN066BH01",
+    "code": "ASIN B0F6L79CXS",
+    "variant": "Nero Inchiostro",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0F6L79CXS",
+    "image": "https://m.media-amazon.com/images/I/71Q6X3dfbrL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 103.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "widths": [
+      {
+        "v": 70,
+        "kind": "ingombro",
+        "src": "scheda e testo (70 × 70 × (113–130))"
+      }
+    ],
+    "arms": {
+      "type": "regolabili",
+      "src": "testo: braccioli che si alzano di 7 cm"
+    },
+    "lumbar": "Regolabile (alto/basso, avanti/indietro)",
+    "headrest": "regolabile",
+    "tilt": {
+      "kind": "bloccabile",
+      "range": "90–135°",
+      "lock": true
+    },
+    "maxLoad": {
+      "v": 150
+    },
+    "rating": {
+      "v": 4.2,
+      "n": 1231,
+      "platform": "Amazon.it"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0F6L79CXS"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn041b01",
+    "name": "SONGMICS Sedia Ufficio Ergonomica, Girevole in Rete, Supporto Lombare",
+    "brand": "SONGMICS",
+    "model": "OBN041B01",
+    "code": "ASIN B0DZF9B1C3",
+    "variant": "Nero Inchiostro",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0DZF9B1C3",
+    "image": "https://m.media-amazon.com/images/I/71IGruWmItL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 95.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "widths": [
+      {
+        "v": 71.5,
+        "kind": "ingombro",
+        "src": "scheda"
+      },
+      {
+        "v": 70,
+        "kind": "ingombro",
+        "src": "testo (70 × 70)"
+      }
+    ],
+    "arms": {
+      "type": "ribaltabili"
+    },
+    "maxLoad": {
+      "v": 120
+    },
+    "rating": {
+      "v": 4.1,
+      "n": 880,
+      "platform": "Amazon.it"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0DZF9B1C3"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn088gd01",
+    "name": "SONGMICS Sedia da Ufficio, Sedia da Scrivania, Schienale Ergonomico, Altezza Regolabile, Braccioli Ribaltabili, Poltrona Girevole con Poggiatesta, Portata 150 kg, Grigio Tortora OBN088GD01",
+    "brand": "SONGMICS",
+    "model": "OBN088GD01",
+    "code": "ASIN B0FFLXPN6H",
+    "variant": "Grigio Tortora",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0FFLXPN6H",
+    "image": "https://m.media-amazon.com/images/I/71aoIFtZy8L._AC_SL500_.jpg",
+    "type": "imbottita",
+    "model3d": "mesh-high",
+    "price": 93.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "widths": [
+      {
+        "v": 70,
+        "kind": "ingombro",
+        "src": "scheda (70 × 70 × 123)"
+      }
+    ],
+    "arms": {
+      "type": "ribaltabili"
+    },
+    "maxLoad": {
+      "v": 150
+    },
+    "rating": {
+      "v": 4.2,
+      "n": 494,
+      "platform": "Amazon.it"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0FFLXPN6H"
+      }
+    ]
+  },
+  {
+    "id": "amz-songmics-obn25bk",
+    "name": "SONGMICS Sedia da Ufficio, Ergonomica, Regolabile in Altezza",
+    "brand": "SONGMICS",
+    "model": "OBN25BK",
+    "code": "ASIN B07YJF58X7",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B07YJF58X7",
+    "image": "https://m.media-amazon.com/images/I/71IfLhPJbYL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 80.99,
+    "priceRef": {
+      "v": 89.99,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "widths": [
+      {
+        "v": 64,
+        "kind": "ingombro",
+        "src": "scheda"
+      }
+    ],
+    "arms": {
+      "type": "fissi"
+    },
+    "rating": {
+      "v": 4.5,
+      "n": 714,
+      "platform": "Amazon.it"
+    },
+    "exclude": {
+      "reason": "Tipologia: sedia alta da disegno/bancone con poggiapiedi ad anello (scheda: altezza sedile 75 cm), non adatta a un tavolo standard"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B07YJF58X7"
+      }
+    ]
+  },
+  {
+    "id": "amz-yaheetech-yp136n",
+    "name": "Yaheetech Sedia da Ufficio Scrivania Ergonomica Lombare Portata 136 kg Nera",
+    "brand": "Yaheetech",
+    "model": "YP-136N",
+    "code": "ASIN B07XRHBXM7",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon (offerta alternativa)",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B07XRHBXM7",
+    "image": "https://m.media-amazon.com/images/I/81GYOdMbxML._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 69.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "Offerta «Spedito da Amazon, Venditore Amazon» a 69,99 € con consegna gratuita il 28 ottobre (dalla lista «Altre offerte»). L'offerta principale di Yahee365 allo stesso prezzo ha la consegna gratuita solo sul primo ordine."
+    },
+    "discounts": [
+      {
+        "label": "Coupon 20%",
+        "status": "pubblicizzato",
+        "conditions": "Mostrato sull'offerta di Yahee365; applicato al checkout, salvo esaurimento",
+        "expires": "2026-11-07"
+      }
+    ],
+    "availability": "Disponibilità immediata",
+    "delivery": "Stima 28 ottobre (offerta Amazon)",
+    "widths": [
+      {
+        "v": 55,
+        "kind": "braccioli",
+        "src": "diagramma"
+      },
+      {
+        "v": 60,
+        "kind": "base-diametro",
+        "src": "diagramma"
+      },
+      {
+        "v": 60,
+        "kind": "ingombro",
+        "src": "scheda (60P × 60L × 100,5H)"
+      }
+    ],
+    "depth": {
+      "v": 60,
+      "src": "diagramma"
+    },
+    "height": {
+      "min": 91,
+      "max": 100.5,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 45,
+      "max": 54,
+      "src": "testo",
+      "note": "Il diagramma indica 35–45 cm: discrepanza"
+    },
+    "seat": {
+      "w": 49.5,
+      "d": 51
+    },
+    "back": {
+      "w": 49.5,
+      "h": 46
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 63,
+      "max": 73,
+      "src": "diagramma (quota da terra)"
+    },
+    "lumbar": "Curvatura dello schienale",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante-tensione",
+      "range": "non quantificato",
+      "lock": false
+    },
+    "materials": "Schienale in rete, seduta in schiuma 7 cm",
+    "maxLoad": {
+      "v": 136
+    },
+    "weightKg": 9.3,
+    "certifications": "Test BIFMA e certificazione SGS del cilindro dichiarati dal venditore",
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.4,
+      "n": 2212,
+      "platform": "Amazon.it",
+      "dist": "5★ 66% · 4★ 21% · 3★ 7% · 2★ 2% · 1★ 4%"
+    },
+    "pros": [
+      "Comodità: 407 positive su 433",
+      "Rapporto qualità-prezzo: 262 positive su 277",
+      "Montaggio: 265 positive su 280"
+    ],
+    "cons": [
+      "Stabilità: 41 negative su 84",
+      "Supporto lombare giudicato in modo contrastante"
+    ],
+    "issues": [
+      "Altezza seduta: 35–45 (diagramma) vs 45–54 (testo)",
+      "Profondità/larghezza in scheda anche come 60 × 55 / 60 × 56"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B07XRHBXM7"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/81a2lmlpOrL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-yaheetech-ya591679",
+    "name": "Yaheetech Sedia da Ufficio Scrivania Ergonomica a Rotelle Regolabile Nera",
+    "brand": "Yaheetech",
+    "model": "YA591679",
+    "code": "ASIN B07XRSS7LJ",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Yahee365",
+    "shipper": "Yahee365",
+    "url": "https://www.amazon.it/dp/B07XRSS7LJ",
+    "image": "https://m.media-amazon.com/images/I/81noeVhCSLL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 64.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine",
+      "note": "«Consegna GRATUITA 28–30 ottobre sul tuo primo ordine»"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 25%",
+        "status": "pubblicizzato",
+        "conditions": "Applicato al checkout, salvo esaurimento",
+        "expires": "2026-11-11"
+      }
+    ],
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 60.5,
+        "kind": "braccioli",
+        "src": "diagramma"
+      },
+      {
+        "v": 60,
+        "kind": "base",
+        "src": "diagramma"
+      }
+    ],
+    "depth": {
+      "v": 60,
+      "src": "diagramma"
+    },
+    "height": {
+      "min": 87,
+      "max": 97,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 55.5,
+      "src": "testo",
+      "note": "Il diagramma indica 35–45 cm"
+    },
+    "seat": {
+      "w": 51,
+      "d": 52.5
+    },
+    "back": {
+      "w": 42,
+      "h": 46
+    },
+    "arms": {
+      "type": "fissi",
+      "src": "non quotata"
+    },
+    "lumbar": "Curvatura dello schienale",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante-tensione",
+      "range": "90–120°",
+      "lock": false
+    },
+    "maxLoad": {
+      "v": 100,
+      "note": "100 kg in scheda, 136 kg nel diagramma"
+    },
+    "weightKg": 8.5,
+    "rating": {
+      "v": 4.3,
+      "n": 2588,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 414 positive su 448",
+      "Poco ingombrante secondo i clienti"
+    ],
+    "cons": [
+      "Schienale: 55 negative su 92",
+      "Robustezza: 29 negative su 104"
+    ],
+    "issues": [
+      "Altezza braccioli da terra non documentata",
+      "Portata incoerente (100 vs 136 kg)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B07XRSS7LJ"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/81N7dDZGa6L._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-yaheetech-b0dn5rnm1z",
+    "name": "Yaheetech Sedia da Scrivania Ufficio Ergonomica Portata 136kg Nera",
+    "brand": "Yaheetech",
+    "model": "YAsedia202411181220",
+    "code": "ASIN B0DN5RNM1Z",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Yahee365",
+    "shipper": "Yahee365",
+    "url": "https://www.amazon.it/dp/B0DN5RNM1Z",
+    "image": "https://m.media-amazon.com/images/I/815yeKWOifL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 61.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine",
+      "note": "Consegna gratuita 29 ottobre – 4 novembre solo sul primo ordine"
+    },
+    "availability": "Disponibilità: solo 3",
+    "widths": [
+      {
+        "v": 60,
+        "kind": "ingombro",
+        "src": "scheda (60 × 60 × 100,5)"
+      }
+    ],
+    "height": {
+      "max": 100.5,
+      "src": "scheda"
+    },
+    "seatHeight": {
+      "min": 35,
+      "max": 53.5,
+      "src": "testo",
+      "note": "Intervallo dichiarato poco plausibile"
+    },
+    "arms": {
+      "type": "fissi",
+      "src": "non quotata"
+    },
+    "tilt": {
+      "kind": "oscillante"
+    },
+    "maxLoad": {
+      "v": 136
+    },
+    "rating": {
+      "v": 4.4,
+      "n": 787,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Qualità: 34 positive su 39",
+      "Comodità: 31 positive su 33"
+    ],
+    "issues": [
+      "Misure in scheda incoerenti (48,5P × 58L e 60 × 60)",
+      "Altezza braccioli non documentata"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0DN5RNM1Z"
+      }
+    ]
+  },
+  {
+    "id": "amz-yaheetech-fr5927",
+    "name": "Yaheetech Sedia da Ufficio Ergonomica Poltrona con Supporto Lombare Nera",
+    "brand": "Yaheetech",
+    "model": "FR-5927170820",
+    "code": "ASIN B07TDPZM2K",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Yahee365",
+    "shipper": "Yahee365",
+    "url": "https://www.amazon.it/dp/B07TDPZM2K",
+    "image": "https://m.media-amazon.com/images/I/71+oORv6v8L._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 89.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 10%",
+        "status": "pubblicizzato",
+        "expires": "2026-10-31"
+      }
+    ],
+    "widths": [
+      {
+        "v": 70,
+        "kind": "base-diametro",
+        "src": "testo («base larga a stella Ø 70 cm»; la scheda indica 70 × 70 × 132)"
+      }
+    ],
+    "seatHeight": {
+      "min": 45,
+      "max": 55,
+      "src": "testo"
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "single": 74,
+      "src": "scheda «Altezza del braccio» (riferimento non indicato)",
+      "refUncertain": true
+    },
+    "lumbar": "Regolabile (5 cm)",
+    "headrest": "regolabile in altezza",
+    "tilt": {
+      "kind": "oscillante"
+    },
+    "maxLoad": {
+      "v": 150,
+      "note": "150 kg nel testo, 136 kg nella scheda"
+    },
+    "certifications": "SGS / EN 1335 dichiarati dal venditore",
+    "rating": {
+      "v": 4.2,
+      "n": 2741,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Larghezza nota solo come diametro della base"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B07TDPZM2K"
+      }
+    ]
+  },
+  {
+    "id": "amz-yaheetech-ya6142850806",
+    "name": "Yaheetech Poltrona/Sedia Ufficio Bloccabile Ergonomica Lombare Ruote Nera",
+    "brand": "Yaheetech",
+    "model": "YA6142850806",
+    "code": "ASIN B0CLRCBH5T",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0CLRCBH5T",
+    "image": "https://m.media-amazon.com/images/I/81DIyZfcqsL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 98.99,
+    "priceRef": {
+      "v": 109.99,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "widths": [
+      {
+        "v": 70,
+        "kind": "ingombro",
+        "src": "scheda (70 × 70 × 125)"
+      }
+    ],
+    "arms": {
+      "type": "regolabili",
+      "src": "testo: regolabili in altezza fino a 7 cm"
+    },
+    "lumbar": "Regolabile (alto/basso, avanti/indietro)",
+    "headrest": "regolabile (8 cm, 45°)",
+    "tilt": {
+      "kind": "bloccabile",
+      "range": "90–130°",
+      "lock": true
+    },
+    "maxLoad": {
+      "v": 136
+    },
+    "rating": {
+      "v": 4.3,
+      "n": 463,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Ingombro 70 cm: potrebbe essere il diametro della base ma non è specificato"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0CLRCBH5T"
+      }
+    ]
+  },
+  {
+    "id": "amz-naspaluro-itm",
+    "name": "naspaluro Sedia da Ufficio Ergonomica Poltrona con Supporto Lombare, Nero",
+    "brand": "naspaluro",
+    "model": "IT-M",
+    "code": "ASIN B0DCJPW6J7",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "LIMENUJERIE",
+    "shipper": "LIMENUJERIE",
+    "url": "https://www.amazon.it/dp/B0DCJPW6J7",
+    "image": "https://m.media-amazon.com/images/I/8164EQvE5pL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 68.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine",
+      "note": "Altre offerte: Yutrotech 69,99 €, EU-Yonhan 74,99 € (stesse condizioni)"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 10%",
+        "status": "pubblicizzato",
+        "expires": "2026-11-21"
+      }
+    ],
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 58.9,
+        "kind": "braccioli",
+        "src": "diagramma (23,2 pollici)"
+      },
+      {
+        "v": 61,
+        "kind": "base",
+        "src": "diagramma (24 pollici)"
+      },
+      {
+        "v": 61.5,
+        "kind": "ingombro",
+        "src": "scheda"
+      }
+    ],
+    "depth": {
+      "v": 61.5,
+      "src": "scheda"
+    },
+    "seatHeight": {
+      "min": 45.7,
+      "max": 55.9,
+      "src": "diagramma (18–22 pollici)"
+    },
+    "seat": {
+      "w": 48.3,
+      "d": 47
+    },
+    "back": {
+      "w": 49,
+      "h": 50.8
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "min": 70.7,
+      "max": 80.9,
+      "src": "diagramma",
+      "derived": "45,7 cm (seduta minima) + 25,0 cm (9,85 pollici bracciolo-seduta) = 70,7 cm; quote manuali ±2,5 cm dichiarate"
+    },
+    "lumbar": "Integrato, fisso",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante"
+    },
+    "materials": "Seduta e schienale in rete",
+    "maxLoad": {
+      "v": 150,
+      "note": "150 kg nel testo, 200 kg nella scheda"
+    },
+    "weightKg": 9.9,
+    "rating": {
+      "v": 4.5,
+      "n": 958,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Qualità: 94 positive su 102",
+      "Comodità: 91 positive su 98",
+      "Compatta e funzionale secondo i clienti"
+    ],
+    "cons": [
+      "Regolabilità giudicata in modo contrastante"
+    ],
+    "issues": [
+      "Braccioli abbassati ≈70,7 cm a seduta minima: oltre il limite di 69 cm (dato derivato con tolleranza dichiarata ±2,5 cm)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0DCJPW6J7"
+      },
+      {
+        "label": "Diagramma dimensioni (pollici)",
+        "url": "https://m.media-amazon.com/images/I/71+Vt6HSqaL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-naspaluro-0519",
+    "name": "naspaluro Sedia da Ufficio Ergonomica,Lombare Adattativo a Forma Di C, Nero",
+    "brand": "naspaluro",
+    "model": "0519",
+    "code": "ASIN B0D4F4R48Y",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "LIMENUJERIE",
+    "shipper": "LIMENUJERIE",
+    "url": "https://www.amazon.it/dp/B0D4F4R48Y",
+    "image": "https://m.media-amazon.com/images/I/61yrsa8NiIL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 89.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 10%",
+        "status": "pubblicizzato",
+        "expires": "2026-11-05"
+      }
+    ],
+    "widths": [
+      {
+        "v": 64,
+        "kind": "base",
+        "src": "diagramma"
+      }
+    ],
+    "height": {
+      "min": 110,
+      "max": 127,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 43,
+      "max": 53,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 51,
+      "d": 54
+    },
+    "back": {
+      "w": 49,
+      "h": 70
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "diagramma: quota «28 cm» con riferimento non chiaro",
+      "refUncertain": true
+    },
+    "lumbar": "Adattivo a C, inclinazione 0–20°",
+    "headrest": "regolabile (altezza e angolo)",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "90–120°"
+    },
+    "maxLoad": {
+      "v": 136
+    },
+    "weightKg": 14,
+    "rating": {
+      "v": 4.3,
+      "n": 780,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Montaggio: 78 positive su 84",
+      "Supporto lombare: 26 positive su 35"
+    ],
+    "cons": [
+      "Reclinabilità: 21 negative su 39",
+      "Mobilità: 15 negative su 23",
+      "Solidità: 11 negative su 35"
+    ],
+    "issues": [
+      "Misure della scheda inutilizzabili (65 × 25 × 52,5)",
+      "Larghezza dei braccioli non quotata"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0D4F4R48Y"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/71UHulENGzL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-naspaluro-am51",
+    "name": "naspaluro Sedia Ufficio Ergonomica, Girevole in Rete, Supporto Lombare,Nero",
+    "brand": "naspaluro",
+    "model": "AM51-X25F00K324-C06-IT",
+    "code": "ASIN B0GWQDHHQJ",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "LIMENUJERIE",
+    "shipper": "LIMENUJERIE",
+    "url": "https://www.amazon.it/dp/B0GWQDHHQJ",
+    "image": "https://m.media-amazon.com/images/I/8122jAJaDEL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 88.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 5 €",
+        "status": "pubblicizzato",
+        "expires": "2026-11-13"
+      }
+    ],
+    "widths": [
+      {
+        "v": 66,
+        "kind": "ingombro",
+        "src": "scheda (61P × 66L × 130H)"
+      }
+    ],
+    "depth": {
+      "v": 61,
+      "src": "scheda"
+    },
+    "height": {
+      "max": 130,
+      "src": "scheda"
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "non quotata"
+    },
+    "lumbar": "Regolabile",
+    "headrest": "regolabile",
+    "maxLoad": {
+      "v": 136
+    },
+    "rating": {
+      "v": 4.4,
+      "n": 750,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Nessun riepilogo recensioni disponibile",
+      "Scheda con peso «12,9 milligrammi» (errore)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0GWQDHHQJ"
+      }
+    ]
+  },
+  {
+    "id": "amz-naspaluro-h05",
+    "name": "naspaluro Sedia da Ufficio con Braccioli Ribaltabili, Sedia Scrivania, Nero",
+    "brand": "naspaluro",
+    "model": "H05 (G-NEW)",
+    "code": "ASIN B0CP62SVX9",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "JIAE-DE (nuovo venditore)",
+    "shipper": "JIAE-DE",
+    "url": "https://www.amazon.it/dp/B0CP62SVX9",
+    "image": "https://m.media-amazon.com/images/I/71r4NNqJ0NL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 69.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 8 €",
+        "status": "pubblicizzato",
+        "expires": "2026-11-13"
+      }
+    ],
+    "widths": [
+      {
+        "v": 56,
+        "kind": "base-diametro",
+        "src": "diagramma (Φ 56)"
+      }
+    ],
+    "height": {
+      "min": 88,
+      "max": 98,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 43,
+      "max": 53,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 48,
+      "d": 48
+    },
+    "back": {
+      "w": 46,
+      "h": 45
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "non quotata"
+    },
+    "lumbar": "Integrato nello schienale",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "non-dichiarata"
+    },
+    "maxLoad": {
+      "v": 113
+    },
+    "rating": {
+      "v": 4.4,
+      "n": 526,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 117 positive su 123",
+      "«Misure giuste e adattabile a spazi piccoli»",
+      "Dimensioni: 16 positive su 16"
+    ],
+    "cons": [
+      "Venditore nuovo",
+      "Schienale medio (45 cm), portata 113 kg"
+    ],
+    "issues": [
+      "Larghezza ai braccioli non quotata",
+      "Scheda: «125 × 72 × 86 cm» e peso 24 kg probabilmente riferiti all'imballo"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0CP62SVX9"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/71+mIJjE8WL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-amazonbasics-movian",
+    "name": "Amazon Basics Sedia da ufficio ergonomica, da scrivania, con braccioli regolabili, supporto lombare, in rete, comoda per la schiena, facile montaggio, 63,5 x 58,4 x 91,4 cm, nero",
+    "brand": "Amazon Basics",
+    "model": "Movian 1335-2 («Shield»)",
+    "code": "ASIN B09B82GM22",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B09B82GM22",
+    "image": "https://m.media-amazon.com/images/I/61vvj8RQ5nL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 109.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna GRATUITA lunedì 2 novembre»"
+    },
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 63.5,
+        "kind": "braccioli",
+        "src": "diagramma"
+      },
+      {
+        "v": 64,
+        "kind": "base-diametro",
+        "src": "diagramma"
+      }
+    ],
+    "depth": {
+      "v": 58,
+      "src": "diagramma"
+    },
+    "height": {
+      "min": 91,
+      "max": 101,
+      "src": "diagramma"
+    },
+    "arms": {
+      "type": "regolabili",
+      "src": "immagine: regolazione in altezza 7 cm; altezza da terra non quotata"
+    },
+    "lumbar": "Supporto lombare (regolazione non dichiarata)",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "non-dichiarata",
+      "range": "un recensore cita una manopola di reclinazione"
+    },
+    "maxLoad": {
+      "v": 125
+    },
+    "weightKg": 10.6,
+    "returns": "30 giorni (offerta Amazon)",
+    "rating": {
+      "v": 4.5,
+      "n": 296,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Qualità: 31 positive su 32",
+      "Robustezza e rapporto qualità-prezzo apprezzati"
+    ],
+    "cons": [
+      "Altezza seduta: 4 negative su 5 («troppo bassa»)",
+      "Supporto lombare: 3 negative su 8"
+    ],
+    "issues": [
+      "I punti elenco della scheda descrivono una scrivania (errore dell'inserzione)",
+      "Altezza seduta e braccioli da terra non documentate",
+      "Offerta «usato come nuovo» a 99,01 € esclusa (non nuovo)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B09B82GM22"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/71EDiT44VJL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-amazonbasics-gf60068",
+    "name": "Amazon Basics Sedia da ufficio, da scrivania, con schienale imbottito, comoda per la schiena, altezza regolabile, facile montaggio, 64 x 47,5 x 87,5-98, nero",
+    "brand": "Amazon Basics",
+    "model": "GF-60068",
+    "code": "ASIN B016ID34BO",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Amazon",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B016ID34BO",
+    "image": "https://m.media-amazon.com/images/I/611XtvJE87L._AC_SL500_.jpg",
+    "type": "imbottita",
+    "model3d": "mesh-mid",
+    "price": 83.99,
+    "priceRef": {
+      "v": 129.99,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "availability": "Generalmente spedito entro 6–7 mesi (consegna stimata 4 maggio 2027)",
+    "widths": [
+      {
+        "v": 61,
+        "kind": "ingombro",
+        "src": "scheda"
+      }
+    ],
+    "arms": {
+      "type": "fissi"
+    },
+    "rating": {
+      "v": 4.3,
+      "n": 2239,
+      "platform": "Amazon.it"
+    },
+    "exclude": {
+      "reason": "Disponibilità: spedizione prevista entro 6–7 mesi"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B016ID34BO"
+      }
+    ]
+  },
+  {
+    "id": "amz-holludle-folder1",
+    "name": "HOLLUDLE Sedia da Ufficio Ergonomica con Schienale Pieghevole, Sedia da Scrivania con Sedile Allargato (52 CM), Braccioli Ribaltabili e Supporto Lombare in Rete Sedia da Lavoro Girevole, Nero",
+    "brand": "HOLLUDLE",
+    "model": "Folder1",
+    "code": "ASIN B0BLNT9MX9",
+    "variant": "Antracite (nero)",
+    "store": "Amazon.it",
+    "seller": "Holludle",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0BLNT9MX9",
+    "image": "https://m.media-amazon.com/images/I/71So6OYIPrL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 109.99,
+    "priceRef": {
+      "v": 145.99,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "Venduto da Holludle, spedito da Amazon: «Consegna GRATUITA lunedì 2 novembre»"
+    },
+    "availability": "Disponibilità immediata",
+    "delivery": "Stima 2 novembre",
+    "widths": [
+      {
+        "v": 68.5,
+        "kind": "braccioli",
+        "src": "diagramma ufficiale"
+      },
+      {
+        "v": 65,
+        "kind": "ingombro",
+        "src": "scheda (65P × 65L × 106,7H)"
+      }
+    ],
+    "depth": {
+      "v": 65,
+      "src": "diagramma"
+    },
+    "height": {
+      "min": 97.5,
+      "max": 107.5,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 44,
+      "max": 53,
+      "src": "derivato",
+      "note": "Scheda: 53 cm (senza riferimento); dal diagramma braccioli 66–75 meno 22 cm ≈ 44–53 cm"
+    },
+    "seat": {
+      "w": 52.5,
+      "d": 44.5
+    },
+    "back": {
+      "h": 53.5
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "min": 66,
+      "max": 75,
+      "src": "diagramma (quota da terra)"
+    },
+    "lumbar": "Doppio supporto lombare in rete (fisso)",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "non quantificato (citato nelle recensioni)",
+      "lock": null
+    },
+    "special": "Schienale pieghevole: si abbassa per riporre la sedia sotto il tavolo",
+    "materials": "Schienale in rete, seduta in rete e spugna, base cromata",
+    "maxLoad": {
+      "v": 150,
+      "note": "Diagramma 150 kg; la scheda riporta «1136 kg» (riferito alle gambe/base)"
+    },
+    "weightKg": 14.5,
+    "certifications": "EN 1335 e ANSI/BIFMA X5.1 dichiarate dal venditore (nessun certificato consultabile)",
+    "warranty": "5 anni sulle parti (dichiarata dal venditore)",
+    "returns": "Reso gratuito entro 30 giorni (dichiarato)",
+    "rating": {
+      "v": 4.5,
+      "n": 1672,
+      "platform": "Amazon.it",
+      "dist": "5★ 73% · 4★ 15% · 3★ 8% · 2★ 1% · 1★ 3%"
+    },
+    "pros": [
+      "Comodità: 33 positive su 38",
+      "Robustezza: 17 positive su 17",
+      "Rapporto qualità-prezzo: 15 positive su 16"
+    ],
+    "cons": [
+      "Oscillazione: 6 negative su 17",
+      "Supporto lombare giudicato in modo contrastante"
+    ],
+    "issues": [
+      "Margine di larghezza molto ridotto: 68,5 cm ai braccioli contro 69 cm disponibili",
+      "Altezza seduta non quotata direttamente",
+      "Utenti indicati: 155–190 cm"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0BLNT9MX9"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/712mgq7sCUL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-milacyee-mil01",
+    "name": "Sedia da Ufficio Ergonomica, Sedia Smart Working con Supporto Lombare Regolabile 4D, Sedia Ufficio in Rete Traspirante con Braccioli Regolabili, Schienale Reclinabile 125°, Ruote Silenziose (Nero)",
+    "brand": "Milacyee",
+    "model": "MIL-01 (Mil01-Pro)",
+    "code": "ASIN B0CGZ3DY44",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Loon Brands",
+    "shipper": "Loon Brands",
+    "url": "https://www.amazon.it/dp/B0CGZ3DY44",
+    "image": "https://m.media-amazon.com/images/I/61YNEJwURjL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 108.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 15 €",
+        "status": "pubblicizzato",
+        "expires": "2026-11-17"
+      }
+    ],
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 63,
+        "kind": "braccioli",
+        "src": "diagramma"
+      },
+      {
+        "v": 70,
+        "kind": "base-diametro",
+        "src": "diagramma (Φ 70)"
+      }
+    ],
+    "height": {
+      "min": 102,
+      "max": 112,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 56,
+      "src": "diagramma"
+    },
+    "back": {
+      "w": 48,
+      "h": 66
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "single": 64,
+      "src": "diagramma (quota verticale dal pavimento al bracciolo)"
+    },
+    "lumbar": "Regolabile 4D (altezza 6 cm, profondità 4 cm)",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante-tensione",
+      "range": "90–125°",
+      "lock": true
+    },
+    "maxLoad": {
+      "v": 130,
+      "note": "130 kg nel diagramma e nel testo, 110 kg nella scheda"
+    },
+    "weightKg": 12.8,
+    "warranty": "Sostituzione accessori entro 2 anni (dichiarata)",
+    "rating": {
+      "v": 4.5,
+      "n": 486,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Qualità: 54 positive su 57",
+      "Supporto lombare: 28 positive su 33",
+      "Braccioli pieghevoli e regolabili apprezzati"
+    ],
+    "cons": [
+      "Imbottitura giudicata in modo contrastante",
+      "Robustezza: 5 negative su 17"
+    ],
+    "issues": [
+      "Base Φ 70 cm: l'ingombro lineare va derivato (non dichiarato)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0CGZ3DY44"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/71KMfd4ejLL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-milacyee-m03",
+    "name": "Milacyee Sedia da Ufficio con Supporto Lombare, Sedia Ufficio Ergonomica con Braccioli Regolabili in Rete Traspirante, Altezza Regolabile con 360°Ruote Girevoli, Nero",
+    "brand": "Milacyee",
+    "model": "M03",
+    "code": "ASIN B0D2WZ5JL4",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Loon Brands",
+    "shipper": "Loon Brands",
+    "url": "https://www.amazon.it/dp/B0D2WZ5JL4",
+    "image": "https://m.media-amazon.com/images/I/51Kepm1UYpL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 99.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 10 €",
+        "status": "pubblicizzato",
+        "expires": "2026-11-17"
+      }
+    ],
+    "widths": [],
+    "arms": {
+      "type": "ribaltabili",
+      "src": "non quotata"
+    },
+    "tilt": {
+      "kind": "oscillante-tensione",
+      "range": "90–130°",
+      "lock": true
+    },
+    "maxLoad": {
+      "v": 102
+    },
+    "warranty": "2 anni (dichiarata)",
+    "rating": {
+      "v": 4.4,
+      "n": 811,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Qualità: 99 positive su 108"
+    ],
+    "cons": [
+      "Reclinabilità: 9 negative su 24"
+    ],
+    "issues": [
+      "Misure della scheda (41 × 44 × 91) non rappresentano l'ingombro totale"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0D2WZ5JL4"
+      }
+    ]
+  },
+  {
+    "id": "amz-huanuo-marsail-msoc10b",
+    "name": "HUANUO Sedia Ufficio Ergonomica, Sedia Scrivania Schienale Alto e Supporto Lombare e Poggiatesta Regolabili, Comoda Sedia Ufficio Braccioli 3D, Sedia Ergonomica Ufficio Domestico, Carico Max 136kg",
+    "brand": "HUANUO / Marsail",
+    "model": "MSOC10B (stesso modello venduto come Marsail MSOC10B-EU)",
+    "code": "ASIN B0FQ4LCBY5 (Marsail: B0H3Q1Z43X)",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "BSQ Technology EU",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0FQ4LCBY5",
+    "image": "https://m.media-amazon.com/images/I/81oBQHm8zqL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 109.99,
+    "priceRef": {
+      "v": 119.99,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "Spedito da Amazon, consegna gratuita 2 novembre. Versione Marsail venduta da Amazon a 119,37 €"
+    },
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 70,
+        "kind": "base-diametro",
+        "src": "diagramma Marsail (Φ 70)"
+      }
+    ],
+    "depth": {
+      "v": 58,
+      "src": "scheda Marsail (58P)"
+    },
+    "height": {
+      "min": 114,
+      "max": 132,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 45,
+      "max": 55,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 51,
+      "d": 51
+    },
+    "arms": {
+      "type": "ribaltabili-regolabili",
+      "src": "braccioli 3D ribaltabili; altezza da terra non quotata"
+    },
+    "lumbar": "Regolabile 2D (3 cm avanti/indietro, 5,5 cm su/giù)",
+    "headrest": "regolabile 2D",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "90–120° (HUANUO) / 101–120° (Marsail)"
+    },
+    "maxLoad": {
+      "v": 136,
+      "note": "136 kg nel titolo, 150 kg nel diagramma"
+    },
+    "rating": {
+      "v": 4.5,
+      "n": 271,
+      "platform": "Amazon.it (HUANUO; Marsail 4,4 su 63)"
+    },
+    "pros": [
+      "Qualità: 28 positive su 32",
+      "Rapporto qualità-prezzo: 22 positive su 23",
+      "Molte regolazioni documentate"
+    ],
+    "cons": [
+      "Comfort: 9 negative su 28",
+      "Regolabilità: 5 negative su 14 (reclinazione limitata per un cliente)",
+      "Ruote poco scorrevoli per un cliente"
+    ],
+    "issues": [
+      "Base Φ 70 cm: l'ingombro lineare va derivato",
+      "La scheda Marsail indica larghezza 60 cm, in contrasto con il diagramma: non usata",
+      "Altezza braccioli non quotata"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon HUANUO",
+        "url": "https://www.amazon.it/dp/B0FQ4LCBY5"
+      },
+      {
+        "label": "Scheda Amazon Marsail",
+        "url": "https://www.amazon.it/dp/B0H3Q1Z43X"
+      },
+      {
+        "label": "Diagramma dimensioni (Marsail)",
+        "url": "https://m.media-amazon.com/images/I/81WZ0QKBetL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-jupplies-jp",
+    "name": "JUPPLIES Sedia da Ufficio Ergonomica Reclinabile con Braccioli e Poggiatesta Regolabili | Sedia da Scrivania con Supporto Lombare e Rete Traspirante | Poltrona da Ufficio",
+    "brand": "JUPPLIES",
+    "model": "JP-SILLAS",
+    "code": "ASIN B0F9LJ2BNX",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "JUPPLIES",
+    "shipper": "JUPPLIES",
+    "url": "https://www.amazon.it/dp/B0F9LJ2BNX",
+    "image": "https://m.media-amazon.com/images/I/81sTLBsFyuL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 99.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "widths": [
+      {
+        "v": 75,
+        "kind": "ingombro",
+        "src": "scheda (75P × 75L × 125H)"
+      }
+    ],
+    "arms": {
+      "type": "regolabili"
+    },
+    "rating": {
+      "v": 4.3,
+      "n": 778,
+      "platform": "Amazon.it"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0F9LJ2BNX"
+      }
+    ]
+  },
+  {
+    "id": "amz-tectake-zulu",
+    "name": "tectake® Sedia da Ufficio Ergonomica, Poggiatesta, Rotazione 360°, 150 kg",
+    "brand": "tectake",
+    "model": "Zulu 400578-4",
+    "code": "ASIN B083P79P3Z",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "tenulodi",
+    "shipper": "tenulodi",
+    "url": "https://www.amazon.it/dp/B083P79P3Z",
+    "image": "https://m.media-amazon.com/images/I/81py8-81vuL._AC_SL500_.jpg",
+    "type": "imbottita",
+    "model3d": "executive",
+    "price": 99.79,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine",
+      "note": "Offerta di tectake Italia: 111,99 €"
+    },
+    "widths": [],
+    "seatHeight": {
+      "min": 47,
+      "max": 55,
+      "src": "testo"
+    },
+    "seat": {
+      "w": 53,
+      "d": 52
+    },
+    "back": {
+      "w": 52,
+      "h": 70
+    },
+    "arms": {
+      "type": "fissi",
+      "src": "non quotata"
+    },
+    "headrest": "integrato",
+    "tilt": {
+      "kind": "oscillante"
+    },
+    "maxLoad": {
+      "v": 150
+    },
+    "rating": {
+      "v": 4.2,
+      "n": 286,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Ingombro «65 × 72 × 113–122 cm» senza indicare quale sia la larghezza: se 72 cm è la larghezza, la sedia non entra"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B083P79P3Z"
+      }
+    ]
+  },
+  {
+    "id": "amz-zik-6125",
+    "name": "ZIK Sedia Ergonomica da Ufficio, Scrivania, Regolazione Schienale e Supporto Lombare, Sedia da Ufficio con Rotelle e Braccioli Reclinabili, Poltrona con Poggiatesta Oscillante e Regolabile",
+    "brand": "ZIK",
+    "model": "6125 (Premium)",
+    "code": "ASIN B0FJGFC9GW",
+    "variant": "Premium",
+    "store": "Amazon.it",
+    "seller": "ZIK Home",
+    "shipper": "ZIK Home",
+    "url": "https://www.amazon.it/dp/B0FJGFC9GW",
+    "image": "https://m.media-amazon.com/images/I/51txISz5O-L._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 109.0,
+    "priceRef": {
+      "v": 129.0,
+      "kind": "consigliato"
+    },
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "widths": [
+      {
+        "v": 62,
+        "kind": "ingombro",
+        "src": "scheda (65P × 62L)"
+      }
+    ],
+    "depth": {
+      "v": 65,
+      "src": "scheda"
+    },
+    "seat": {
+      "d": 46
+    },
+    "back": {
+      "w": 49,
+      "h": 75
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "non quotata"
+    },
+    "lumbar": "Adattivo 3D (integrato)",
+    "headrest": "oscillante e regolabile",
+    "tilt": {
+      "kind": "oscillante"
+    },
+    "maxLoad": {
+      "v": 150
+    },
+    "certifications": "Pistone BIFMA classe 3 dichiarato",
+    "rating": {
+      "v": 4.0,
+      "n": 476,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 82 positive su 96",
+      "Seduta larga e reclinabile"
+    ],
+    "cons": [
+      "Qualità dei materiali: 23 negative su 38",
+      "Qualità: 25 negative su 96"
+    ],
+    "issues": [
+      "Il numero di recensioni (476) è condiviso da più inserzioni ZIK"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0FJGFC9GW"
+      }
+    ]
+  },
+  {
+    "id": "amz-rattantree-am128",
+    "name": "Sedia da Ufficio con Supporto Lombare e Braccioli Regolabili, Nero",
+    "brand": "rattantree",
+    "model": "AM128-AB",
+    "code": "ASIN B0C2HQB3SX",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Pures Glück",
+    "shipper": "Pures Glück",
+    "url": "https://www.amazon.it/dp/B0C2HQB3SX",
+    "image": "https://m.media-amazon.com/images/I/71QkeDzUZCL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 69.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine",
+      "note": "Altra offerta: Yuandi Store 79,99 €"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 5 €",
+        "status": "pubblicizzato",
+        "expires": "2026-11-04"
+      }
+    ],
+    "widths": [
+      {
+        "v": 60,
+        "kind": "base-diametro",
+        "src": "diagramma (60 cm)"
+      }
+    ],
+    "height": {
+      "min": 92,
+      "max": 102,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 41,
+      "max": 51,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 50,
+      "d": 50
+    },
+    "back": {
+      "w": 48,
+      "h": 50
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "diagramma: quota «30 cm» fra bracciolo e seduta con riferimento non chiaro (≈71 cm da terra se misurata dal piano seduta)",
+      "refUncertain": true
+    },
+    "lumbar": "Integrato",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante"
+    },
+    "maxLoad": {
+      "v": 102
+    },
+    "weightKg": 9,
+    "rating": {
+      "v": 4.3,
+      "n": 1786,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Comodità: 343 positive su 364",
+      "Montaggio: 228 positive su 240"
+    ],
+    "cons": [
+      "Materiali giudicati in modo contrastante",
+      "Scorrevolezza: 10 negative su 40"
+    ],
+    "issues": [
+      "Larghezza ai braccioli non quotata"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0C2HQB3SX"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/61LEFvjKGKL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-rattantree-c05",
+    "name": "Sedia Ufficio Ergonomica, Poltrona Ufficio con Supporto Lombare 2D, Grigio",
+    "brand": "rattantree",
+    "model": "C05-IT",
+    "code": "ASIN B0GWQTSBL9",
+    "variant": "Grigio",
+    "store": "Amazon.it",
+    "seller": "Luckyearn",
+    "shipper": "Luckyearn",
+    "url": "https://www.amazon.it/dp/B0GWQTSBL9",
+    "image": "https://m.media-amazon.com/images/I/61Bdk00WN-L._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 89.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 10 €",
+        "status": "pubblicizzato",
+        "expires": "2026-10-24"
+      }
+    ],
+    "widths": [],
+    "height": {
+      "max": 118,
+      "src": "scheda"
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "non quotata"
+    },
+    "lumbar": "Regolabile su 3 posizioni + 3 cm di profondità",
+    "headrest": "regolabile 3D",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "90–120°"
+    },
+    "rating": {
+      "v": 4.5,
+      "n": 168,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Misure della scheda (49 × 50 × 118) riferite alla seduta, non all'ingombro"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0GWQTSBL9"
+      }
+    ]
+  },
+  {
+    "id": "amz-basetbl-dechaf003",
+    "name": "BASETBL Sedia da ufficio ergonomica con supporto lombare, Nera",
+    "brand": "BASETBL",
+    "model": "DECHAF003",
+    "code": "ASIN B08S41S9R5",
+    "variant": "Black",
+    "store": "Amazon.it",
+    "seller": "BASETBL IT",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B08S41S9R5",
+    "image": "https://m.media-amazon.com/images/I/61y-MzN9bNL._AC_SL500_.jpg",
+    "type": "gaming",
+    "model3d": "gaming",
+    "price": 119.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "Spedizione Amazon, «Consegna GRATUITA lunedì 2 novembre»"
+    },
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 66,
+        "kind": "braccioli",
+        "src": "diagramma"
+      },
+      {
+        "v": 66,
+        "kind": "ingombro",
+        "src": "scheda (60P × 66L × 118H)"
+      }
+    ],
+    "depth": {
+      "v": 67,
+      "src": "diagramma"
+    },
+    "height": {
+      "min": 108,
+      "max": 118,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 56,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 52,
+      "d": 50
+    },
+    "back": {
+      "w": 50,
+      "h": 67
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 64,
+      "max": 74,
+      "src": "diagramma",
+      "derived": "46 cm (seduta minima) + 18 cm (bracciolo sopra la seduta) = 64 cm"
+    },
+    "lumbar": "Supporto lombare imbottito (non regolabile)",
+    "headrest": "integrato",
+    "tilt": {
+      "kind": "oscillante-tensione",
+      "range": "90–110°"
+    },
+    "materials": "Similpelle (PU) con inserti in rete",
+    "maxLoad": {
+      "v": 150,
+      "note": "Utenti 145–189 cm (diagramma)"
+    },
+    "weightKg": 13,
+    "warranty": "1 anno (scheda); sostituzione gratuita parti entro 2 anni (testo)",
+    "returns": "Reso e cambio entro 30 giorni (dichiarato)",
+    "rating": {
+      "v": 4.0,
+      "n": 2181,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Qualità: 65 positive su 72",
+      "Rapporto qualità-prezzo: 43 positive su 46"
+    ],
+    "cons": [
+      "Comfort: 11 negative su 30",
+      "Resistenza: 9 negative su 26",
+      "Similpelle: meno traspirante della rete"
+    ],
+    "issues": [
+      "Prezzo a 1 centesimo dal budget",
+      "Altezza braccioli da terra ricavata"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B08S41S9R5"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/71uMFbG8wOL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-youhauchair-yc5001",
+    "name": "Youhauchair Sedia Ufficio con Braccioli Ribaltabili, Nero",
+    "brand": "Youhauchair",
+    "model": "YC-5001BK",
+    "code": "ASIN B0CT21TBVZ",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Youhauchair",
+    "shipper": "Youhauchair",
+    "url": "https://www.amazon.it/dp/B0CT21TBVZ",
+    "image": "https://m.media-amazon.com/images/I/81p-2Sh9mwL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 109.98,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine",
+      "note": "Offerta venduta da Amazon: 129,98 € con consegna gratuita (fuori budget)"
+    },
+    "availability": "Disponibilità immediata",
+    "widths": [
+      {
+        "v": 64,
+        "kind": "braccioli",
+        "src": "diagramma"
+      },
+      {
+        "v": 64,
+        "kind": "base",
+        "src": "diagramma"
+      },
+      {
+        "v": 64,
+        "kind": "ingombro",
+        "src": "scheda (55P × 64L × 108H)"
+      }
+    ],
+    "depth": {
+      "v": 65,
+      "src": "diagramma (65 cm; la scheda indica 55)"
+    },
+    "height": {
+      "min": 99,
+      "max": 109,
+      "src": "diagramma"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 57,
+      "src": "diagramma"
+    },
+    "seat": {
+      "w": 50,
+      "d": 55
+    },
+    "back": {
+      "w": 50.5
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "min": 66,
+      "max": 77,
+      "src": "diagramma",
+      "derived": "46 cm (seduta minima) + 20 cm (bracciolo sopra la seduta) = 66 cm"
+    },
+    "lumbar": "Integrato",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "bloccabile",
+      "lock": true
+    },
+    "maxLoad": {
+      "v": 150
+    },
+    "weightKg": 12,
+    "warranty": "1 anno post-vendita (dichiarato)",
+    "rating": {
+      "v": 4.4,
+      "n": 782,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Nessun riepilogo recensioni disponibile",
+      "Spedizione del venditore terzo non verificabile"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0CT21TBVZ"
+      },
+      {
+        "label": "Diagramma dimensioni",
+        "url": "https://m.media-amazon.com/images/I/71Uzg4XT3jL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  {
+    "id": "amz-woltu-bs161",
+    "name": "WOLTU Sedia Ufficio Ergonomica, Sedie Ufficio a Rete Traspirante, Grigio",
+    "brand": "WOLTU",
+    "model": "BS161",
+    "code": "ASIN B0D95VX8J6",
+    "variant": "Grigio",
+    "store": "Amazon.it",
+    "seller": "WOLTU GmbH",
+    "shipper": "WOLTU GmbH",
+    "url": "https://www.amazon.it/dp/B0D95VX8J6",
+    "image": "https://m.media-amazon.com/images/I/61OQ0uL0z2L._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 79.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "widths": [
+      {
+        "v": 62,
+        "kind": "ingombro",
+        "src": "scheda (50P × 62L × 123,5H)"
+      }
+    ],
+    "height": {
+      "max": 123.5,
+      "src": "scheda"
+    },
+    "back": {
+      "h": 71
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "non quotata"
+    },
+    "lumbar": "Adattivo a C",
+    "headrest": "regolabile",
+    "tilt": {
+      "kind": "bloccabile",
+      "range": "90–110°",
+      "lock": true
+    },
+    "maxLoad": {
+      "v": 150
+    },
+    "rating": {
+      "v": 4.3,
+      "n": 249,
+      "platform": "Amazon.it"
+    },
+    "pros": [
+      "Qualità: 15 positive su 17"
+    ],
+    "cons": [
+      "Ergonomia: 4 negative su 6",
+      "Rapporto qualità-prezzo contrastante"
+    ],
+    "issues": [
+      "Profondità in scheda (50 cm) probabilmente riferita alla seduta"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0D95VX8J6"
+      }
+    ]
+  },
+  {
+    "id": "amz-durrafy-c01",
+    "name": "Durrafy Sedia da Ufficio Ergonomica, Braccioli Ripiegabili 90°, Supporto Lombare Regolabile, Rete Traspirante, 130° Inclinazione（Non bloccabile）, 130kg Carico",
+    "brand": "Durrafy",
+    "model": "C01",
+    "code": "ASIN B0BWXKW5FL",
+    "variant": "Nera",
+    "store": "Amazon.it",
+    "seller": "Loon Brands",
+    "shipper": "Loon Brands",
+    "url": "https://www.amazon.it/dp/B0BWXKW5FL",
+    "image": "https://m.media-amazon.com/images/I/61VuGTf145L._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 96.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "widths": [],
+    "seat": {
+      "w": 49,
+      "d": 52
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "scheda «65 millimetri» (unità errata)",
+      "refUncertain": true
+    },
+    "lumbar": "Regolabile",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "fino a 130°, non bloccabile",
+      "lock": false
+    },
+    "maxLoad": {
+      "v": 130
+    },
+    "rating": {
+      "v": 4.2,
+      "n": 1055,
+      "platform": "Amazon.it"
+    },
+    "cons": [
+      "Supporto lombare: 14 negative su 42"
+    ],
+    "issues": [
+      "Scheda con unità di misura errate (millimetri al posto di centimetri)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0BWXKW5FL"
+      }
+    ]
+  },
+  {
+    "id": "amz-durrafy-d03",
+    "name": "Durrafy Sedia da Ufficio Ergonomica, Poggiatesta & Supporto Lombare Regolabili, Rete Traspirante, 120° Inclinazione（Non bloccabile）, 360° Girevole, 150kg Carico",
+    "brand": "Durrafy",
+    "model": "D03",
+    "code": "ASIN B0C3BZHVK8",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "Loon Brands",
+    "shipper": "Loon Brands",
+    "url": "https://www.amazon.it/dp/B0C3BZHVK8",
+    "image": "https://m.media-amazon.com/images/I/61NW4QiSthL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 121.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "widths": [
+      {
+        "v": 60,
+        "kind": "ingombro",
+        "src": "scheda (48P × 60L; taglia 48 × 68)"
+      }
+    ],
+    "arms": {
+      "type": "regolabili"
+    },
+    "rating": {
+      "v": 4.4,
+      "n": 1856,
+      "platform": "Amazon.it"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0C3BZHVK8"
+      }
+    ]
+  },
+  {
+    "id": "amz-melokea-f048w",
+    "name": "MELOKEA Sedia da Scrivania Bionica Ergonomica con Supporto Lombare 4D, Bracciolo Ribaltabile a 100°, Altezza Regolabile, Sedia da Gioco in Rete EN12520, Grigio Beige",
+    "brand": "MELOKEA",
+    "model": "F048W (Bionische 4D)",
+    "code": "ASIN B0F3C9JVZ6",
+    "variant": "Grigio",
+    "store": "Amazon.it",
+    "seller": "Melokea IT",
+    "shipper": "Amazon",
+    "url": "https://www.amazon.it/dp/B0F3C9JVZ6",
+    "image": "https://m.media-amazon.com/images/I/71BumQCc8pL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 109.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita"
+    },
+    "availability": "Attualmente non disponibile",
+    "widths": [
+      {
+        "v": 56,
+        "kind": "ingombro",
+        "src": "scheda (50D × 56W × 104H)"
+      }
+    ],
+    "arms": {
+      "type": "ribaltabili"
+    },
+    "rating": {
+      "v": 4.5,
+      "n": 24,
+      "platform": "Amazon.it"
+    },
+    "exclude": {
+      "reason": "Disponibilità: «Attualmente non disponibile»"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0F3C9JVZ6"
+      }
+    ]
+  },
+  {
+    "id": "amz-sihoo-m109",
+    "name": "SIHOO M109 Sedia da Ufficio, Salva Spazio, Supporto Lombare Regolabile,Nero",
+    "brand": "SIHOO",
+    "model": "M109",
+    "code": "ASIN B0HJ2QJW1Y",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "SIHOOIT",
+    "shipper": "SIHOOIT",
+    "url": "https://www.amazon.it/dp/B0HJ2QJW1Y",
+    "image": "https://m.media-amazon.com/images/I/71y5DI5bXnL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 149.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "discounts": [
+      {
+        "label": "Coupon 20 €",
+        "status": "pubblicizzato",
+        "conditions": "Anche se applicato il totale sarebbe 129,99 €, oltre il budget",
+        "expires": "2026-10-25"
+      }
+    ],
+    "widths": [
+      {
+        "v": 51,
+        "kind": "ingombro",
+        "src": "scheda (47,8P × 51L × 110,5H)"
+      }
+    ],
+    "arms": {
+      "type": "ribaltabili"
+    },
+    "rating": {
+      "v": 4.7,
+      "n": 170,
+      "platform": "Amazon.it"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B0HJ2QJW1Y"
+      }
+    ]
+  },
+  {
+    "id": "amz-sihoo-m57",
+    "name": "SIHOO M57 Sedia Da Ufficio Ergonómica Rete, Supporto Lombare, 150 Kg, Nero",
+    "brand": "SIHOO",
+    "model": "M57",
+    "code": "ASIN B07BDFW1Y7",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "SIHOOIT",
+    "shipper": "SIHOOIT",
+    "url": "https://www.amazon.it/dp/B07BDFW1Y7",
+    "image": "https://m.media-amazon.com/images/I/61BOnde2eYL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 249.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "primo-ordine"
+    },
+    "widths": [
+      {
+        "v": 61,
+        "kind": "ingombro",
+        "src": "scheda (43P × 61L × 110H)"
+      }
+    ],
+    "arms": {
+      "type": "fissi"
+    },
+    "rating": {
+      "v": 4.4,
+      "n": 8826,
+      "platform": "Amazon.it"
+    },
+    "issues": [
+      "Offerta «usato come nuovo» a 180,14 € esclusa (non nuova e comunque fuori budget)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B07BDFW1Y7"
+      }
+    ]
+  },
+  {
+    "id": "amz-sihoo-m18",
+    "name": "SIHOO M18 Sedia Ufficio Ergonómica, Supporto Lombare Regolabile,150Kg,Nero",
+    "brand": "SIHOO",
+    "model": "M18",
+    "code": "ASIN B07GNDDNMW",
+    "variant": "Nero",
+    "store": "Amazon.it",
+    "seller": "SIHOOIT",
+    "shipper": "SIHOOIT",
+    "url": "https://www.amazon.it/dp/B07GNDDNMW",
+    "image": "https://m.media-amazon.com/images/I/61nb9ErcVpL._AC_SL500_.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 199.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "«Consegna programmata GRATUITA»"
+    },
+    "discounts": [
+      {
+        "label": "Risparmia 10% al check-out",
+        "status": "pubblicizzato",
+        "conditions": "Anche applicato: 179,99 €, fuori budget"
+      }
+    ],
+    "widths": [
+      {
+        "v": 51,
+        "kind": "ingombro",
+        "src": "scheda (45,5P × 51L × 130H)"
+      }
+    ],
+    "arms": {
+      "type": "fissi"
+    },
+    "rating": {
+      "v": 4.4,
+      "n": 15524,
+      "platform": "Amazon.it"
+    },
+    "sources": [
+      {
+        "label": "Scheda Amazon",
+        "url": "https://www.amazon.it/dp/B07GNDDNMW"
+      }
+    ]
+  }
+]

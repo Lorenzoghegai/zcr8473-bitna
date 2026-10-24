@@ -1,0 +1,756 @@
+[
+  {
+    "id": "jysk-billum",
+    "name": "Sedia da ufficio BILLUM tessuto mesh grigio/nero",
+    "brand": "JYSK",
+    "model": "BILLUM",
+    "code": "SKU 3640403 (variante nera); variante grigia analizzata",
+    "variant": "Grigio/nero",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-billum-tessuto-mesh-grigio-nero",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/256805",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 65.0,
+    "priceRef": {
+      "v": 89.95,
+      "kind": "minimo-30gg"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito",
+      "note": "Click & Collect gratuito (80 negozi). Consegna a domicilio: «+ eventuali costi di spedizione», importo non pubblicato in scheda."
+    },
+    "discounts": [
+      {
+        "label": "Offerta −27% (prezzo più basso degli ultimi 30 giorni: 89,95 €)",
+        "status": "verificato",
+        "conditions": "Prezzo mostrato in scheda, offerta valida fino al 29/11/2026",
+        "expires": "2026-11-29"
+      }
+    ],
+    "availability": "Disponibile per spedizione e in 80 negozi",
+    "widths": [
+      {
+        "v": 61,
+        "kind": "ingombro",
+        "src": "scheda JYSK (L61 × H109–119 × P62)"
+      }
+    ],
+    "depth": {
+      "v": 62,
+      "src": "scheda JYSK"
+    },
+    "height": {
+      "min": 109,
+      "max": 119,
+      "src": "scheda JYSK"
+    },
+    "seatHeight": {
+      "min": 47,
+      "max": 57,
+      "src": "scheda JYSK"
+    },
+    "seat": {
+      "d": 47
+    },
+    "arms": {
+      "type": "fissi",
+      "single": 64,
+      "src": "scheda JYSK «Altezza bracciolo 64» (riferimento non esplicitato; valore compatibile solo con una misura da terra)"
+    },
+    "lumbar": "nessuno dichiarato",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "bloccabile",
+      "range": "meccanismo oscillante continuo con tensione regolabile e blocco in posizione verticale",
+      "lock": true
+    },
+    "materials": "Schienale in rete, seduta in tessuto (schiuma 18 kg/m³), base in acciaio cromato, rotelle di sicurezza",
+    "maxLoad": {
+      "v": 110
+    },
+    "weightKg": 13,
+    "returns": "Resi illimitati in negozio, senza limiti di tempo (dichiarato)",
+    "rating": {
+      "v": 4.0,
+      "n": 128,
+      "platform": "JYSK (variante grigia; la nera ha 2.453 recensioni, media 4,0)"
+    },
+    "pros": [
+      "Inclinazione con tensione regolabile e blocco documentati",
+      "Rotelle che si bloccano quando ci si alza (dichiarato)",
+      "Ritiro gratuito e resi in negozio"
+    ],
+    "cons": [
+      "Portata 110 kg",
+      "Densità schiuma seduta dichiarata bassa (18 kg/m³)",
+      "Recensioni non analizzate nel dettaglio (solo media)"
+    ],
+    "issues": [
+      "Variante nera allo stesso modello: 89,95 € (senza sconto)",
+      "Costo consegna a domicilio da verificare nel carrello"
+    ],
+    "sources": [
+      {
+        "label": "Scheda JYSK (grigio/nero)",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-billum-tessuto-mesh-grigio-nero"
+      },
+      {
+        "label": "Scheda JYSK (nera)",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-billum-tessuto-mesh-nero-0"
+      }
+    ]
+  },
+  {
+    "id": "jysk-nimtofte",
+    "name": "Sedia da ufficio NIMTOFTE tessuto grigio/nero",
+    "brand": "JYSK",
+    "model": "NIMTOFTE",
+    "code": "jysk.it",
+    "variant": "Tessuto grigio/nero",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-nimtofte-tessuto-grigio-nero",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/263686",
+    "type": "tessuto",
+    "model3d": "mesh-mid",
+    "price": 55.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito",
+      "note": "Click & Collect gratuito; consegna a domicilio non quotata"
+    },
+    "widths": [
+      {
+        "v": 58,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "depth": {
+      "v": 64,
+      "src": "scheda JYSK"
+    },
+    "height": {
+      "min": 92,
+      "max": 102,
+      "src": "scheda JYSK"
+    },
+    "seatHeight": {
+      "min": 43,
+      "max": 53,
+      "src": "scheda JYSK"
+    },
+    "arms": {
+      "type": "fissi",
+      "single": 61,
+      "src": "scheda JYSK «Altezza bracciolo 61»"
+    },
+    "lumbar": "nessuno dichiarato",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante-tensione",
+      "range": "tensione di inclinazione regolabile, meccanismo oscillante"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "returns": "Resi illimitati in negozio (dichiarato)",
+    "rating": {
+      "v": 4.7,
+      "n": 95,
+      "platform": "JYSK (variante in similpelle a 50 €: 3,9 su 1.078)"
+    },
+    "cons": [
+      "Schienale basso (altezza totale 92–102 cm)",
+      "Portata 110 kg"
+    ],
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-nimtofte-tessuto-grigio-nero"
+      }
+    ]
+  },
+  {
+    "id": "jysk-randrup",
+    "name": "Sedia da gaming RANDRUP similpelle nera/tessuto mesh",
+    "brand": "JYSK",
+    "model": "RANDRUP",
+    "code": "jysk.it",
+    "variant": "Similpelle nera / mesh",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-gaming-randrup-similpelle-nera-tessuto-mesh",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/263708",
+    "type": "gaming",
+    "model3d": "gaming",
+    "price": 60.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "sconosciuta"
+    },
+    "availability": "Da verificare: durante il controllo la pagina prodotto reindirizzava alla categoria",
+    "widths": [
+      {
+        "v": 57,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "depth": {
+      "v": 63,
+      "src": "scheda JYSK"
+    },
+    "height": {
+      "min": 97,
+      "max": 107,
+      "src": "scheda JYSK"
+    },
+    "seatHeight": {
+      "min": 42,
+      "max": 52,
+      "src": "scheda JYSK"
+    },
+    "arms": {
+      "type": "fissi",
+      "single": 60,
+      "src": "scheda JYSK"
+    },
+    "tilt": {
+      "kind": "oscillante-tensione"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "rating": {
+      "v": 4.4,
+      "n": 59,
+      "platform": "JYSK"
+    },
+    "issues": [
+      "Prezzo letto dai dati della scheda (60 €) ma pagina non più raggiungibile in navigazione: disponibilità non confermata"
+    ],
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-gaming-randrup-similpelle-nera-tessuto-mesh"
+      }
+    ]
+  },
+  {
+    "id": "jysk-asminderup",
+    "name": "Sedia da ufficio ASMINDERUP tessuto mesh nero/tessuto nero",
+    "brand": "JYSK",
+    "model": "ASMINDERUP",
+    "code": "jysk.it",
+    "variant": "Nero",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-asminderup-tessuto-mesh-nero-tessuto-nero",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/284502",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 70.0,
+    "priceRef": {
+      "v": 99.0,
+      "kind": "minimo-30gg"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito",
+      "note": "Click & Collect gratuito; consegna a domicilio non quotata"
+    },
+    "discounts": [
+      {
+        "label": "Offerta −29% (minimo 30 giorni 99 €)",
+        "status": "verificato",
+        "conditions": "Prezzo mostrato in scheda"
+      }
+    ],
+    "widths": [
+      {
+        "v": 60,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "depth": {
+      "v": 61,
+      "src": "scheda JYSK"
+    },
+    "height": {
+      "min": 97,
+      "max": 106,
+      "src": "scheda JYSK"
+    },
+    "seatHeight": {
+      "min": 47,
+      "max": 57,
+      "src": "scheda JYSK"
+    },
+    "arms": {
+      "type": "ribaltabili",
+      "src": "non quotata"
+    },
+    "tilt": {
+      "kind": "oscillante-tensione"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "rating": {
+      "v": 2.9,
+      "n": 9,
+      "platform": "JYSK"
+    },
+    "cons": [
+      "Valutazione bassa (2,9) su poche recensioni"
+    ],
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-asminderup-tessuto-mesh-nero-tessuto-nero"
+      }
+    ]
+  },
+  {
+    "id": "jysk-kokkedal",
+    "name": "Sedia da scrivania KOKKEDAL tessuto grigio/bianco",
+    "brand": "JYSK",
+    "model": "KOKKEDAL",
+    "code": "jysk.it",
+    "variant": "Grigio/bianco",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-scrivania-kokkedal-tessuto-grigio-bianco",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/268562",
+    "type": "design",
+    "model3d": "armless",
+    "price": 64.45,
+    "priceRef": {
+      "v": 129.0,
+      "kind": "minimo-30gg"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito",
+      "note": "Click & Collect gratuito; consegna a domicilio non quotata"
+    },
+    "discounts": [
+      {
+        "label": "Offerta −50% (minimo 30 giorni 129 €)",
+        "status": "verificato",
+        "conditions": "Prezzo mostrato in scheda"
+      }
+    ],
+    "widths": [
+      {
+        "v": 55,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "depth": {
+      "v": 58,
+      "src": "scheda JYSK"
+    },
+    "height": {
+      "min": 81,
+      "max": 94,
+      "src": "scheda JYSK"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 59,
+      "src": "scheda JYSK"
+    },
+    "arms": {
+      "type": "nessuno"
+    },
+    "tilt": {
+      "kind": "nessuna"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "rating": {
+      "v": 4.4,
+      "n": 396,
+      "platform": "JYSK"
+    },
+    "cons": [
+      "Sedia da scrivania d'arredo: schienale basso, nessuna regolazione oltre all'altezza"
+    ],
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-scrivania-kokkedal-tessuto-grigio-bianco"
+      }
+    ]
+  },
+  {
+    "id": "jysk-rostrup",
+    "name": "Sedia da scrivania ROSTRUP nero similpelle",
+    "brand": "JYSK",
+    "model": "ROSTRUP",
+    "code": "jysk.it",
+    "variant": "Nero",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-scrivania-rostrup-nero-similpelle",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/293232",
+    "type": "design",
+    "model3d": "tub",
+    "price": 80.0,
+    "priceRef": {
+      "v": 109.0,
+      "kind": "minimo-30gg"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito",
+      "note": "Click & Collect gratuito; consegna a domicilio non quotata"
+    },
+    "widths": [
+      {
+        "v": 57,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "depth": {
+      "v": 57,
+      "src": "scheda JYSK"
+    },
+    "height": {
+      "min": 87,
+      "max": 93,
+      "src": "scheda JYSK"
+    },
+    "seatHeight": {
+      "min": 50,
+      "max": 57,
+      "src": "scheda JYSK"
+    },
+    "arms": {
+      "type": "integrati",
+      "single": 58,
+      "src": "scheda JYSK «Altezza bracciolo 58»"
+    },
+    "tilt": {
+      "kind": "nessuna"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "rating": {
+      "v": 5.0,
+      "n": 1,
+      "platform": "JYSK"
+    },
+    "issues": [
+      "Altezza seduta minima 50 cm, alta per un tavolo standard",
+      "Una sola recensione"
+    ],
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-scrivania-rostrup-nero-similpelle"
+      }
+    ]
+  },
+  {
+    "id": "jysk-folby",
+    "name": "Sedia da ufficio FOLBY tessuto mesh nero/nero",
+    "brand": "JYSK",
+    "model": "FOLBY",
+    "code": "jysk.it",
+    "variant": "Nero",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-folby-tessuto-mesh-nero-nero",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/263628",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 90.0,
+    "priceRef": {
+      "v": 119.0,
+      "kind": "minimo-30gg"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito",
+      "note": "Click & Collect gratuito; consegna a domicilio non quotata"
+    },
+    "widths": [
+      {
+        "v": 57,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "depth": {
+      "v": 62,
+      "src": "scheda JYSK"
+    },
+    "height": {
+      "min": 107,
+      "max": 116,
+      "src": "scheda JYSK"
+    },
+    "seatHeight": {
+      "min": 50,
+      "max": 59,
+      "src": "scheda JYSK"
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 69,
+      "max": 78,
+      "src": "scheda JYSK «Altezza bracciolo 19»",
+      "derived": "50 cm (seduta minima) + 19 cm = 69 cm, ipotizzando che i 19 cm siano misurati dal piano seduta",
+      "refUncertain": true
+    },
+    "tilt": {
+      "kind": "bloccabile",
+      "lock": true
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "rating": {
+      "v": 3.5,
+      "n": 15,
+      "platform": "JYSK"
+    },
+    "issues": [
+      "Riferimento dell'altezza bracciolo non dichiarato",
+      "Seduta minima 50 cm"
+    ],
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-folby-tessuto-mesh-nero-nero"
+      }
+    ]
+  },
+  {
+    "id": "jysk-hallendrup",
+    "name": "Sedia da scrivania HALLENDRUP tessuto beige/beige",
+    "brand": "JYSK",
+    "model": "HALLENDRUP",
+    "code": "jysk.it",
+    "variant": "Beige",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-scrivania-hallendrup-tessuto-beige-beige",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/284512",
+    "type": "design",
+    "model3d": "tub",
+    "price": 119.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito",
+      "note": "Click & Collect gratuito; consegna a domicilio non quotata"
+    },
+    "widths": [
+      {
+        "v": 62,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "depth": {
+      "v": 66,
+      "src": "scheda JYSK"
+    },
+    "height": {
+      "min": 78,
+      "max": 84,
+      "src": "scheda JYSK"
+    },
+    "seatHeight": {
+      "min": 45,
+      "max": 51,
+      "src": "scheda JYSK"
+    },
+    "arms": {
+      "type": "integrati",
+      "single": 72,
+      "src": "scheda JYSK «Altezza bracciolo 72» (riferimento non indicato)",
+      "refUncertain": true
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "issues": [
+      "Se i 72 cm sono a seduta minima i braccioli non entrano; se sono a seduta massima il minimo sarebbe ≈66 cm: da verificare"
+    ],
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-scrivania-hallendrup-tessuto-beige-beige"
+      }
+    ]
+  },
+  {
+    "id": "jysk-vojens",
+    "name": "Sedia da gaming VOJENS similpelle nera/blu / tessuto mesh",
+    "brand": "JYSK",
+    "model": "VOJENS",
+    "code": "jysk.it",
+    "variant": "Nero/blu",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-gaming-vojens-similpelle-nera-blu-tessuto-mesh",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/256732",
+    "type": "gaming",
+    "model3d": "gaming",
+    "price": 89.45,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito"
+    },
+    "widths": [
+      {
+        "v": 72,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "arms": {
+      "type": "ribaltabili",
+      "single": 70,
+      "src": "scheda JYSK"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "rating": {
+      "v": 4.0,
+      "n": 580,
+      "platform": "JYSK"
+    },
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-gaming-vojens-similpelle-nera-blu-tessuto-mesh"
+      }
+    ]
+  },
+  {
+    "id": "jysk-tamdrup",
+    "name": "Sedia da ufficio TAMDRUP nero",
+    "brand": "JYSK",
+    "model": "TAMDRUP",
+    "code": "jysk.it",
+    "variant": "Nero",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-tamdrup-nero",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/61754",
+    "type": "imbottita",
+    "model3d": "executive",
+    "price": 115.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito"
+    },
+    "widths": [
+      {
+        "v": 80,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "arms": {
+      "type": "fissi"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "rating": {
+      "v": 3.4,
+      "n": 480,
+      "platform": "JYSK"
+    },
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-tamdrup-nero"
+      }
+    ]
+  },
+  {
+    "id": "jysk-karlslunde",
+    "name": "Sedia da ufficio KARLSLUNDE tessuto nero mesh/tessuto nero",
+    "brand": "JYSK",
+    "model": "KARLSLUNDE",
+    "code": "jysk.it",
+    "variant": "Nero",
+    "store": "JYSK",
+    "seller": "JYSK Italia",
+    "shipper": "JYSK",
+    "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-karlslunde-tessuto-nero-mesh-tessuto-nero",
+    "image": "https://cdn1.jysk.com/getimage/wd3.large/284522",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 149.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": 0,
+      "status": "ritiro-gratuito"
+    },
+    "widths": [
+      {
+        "v": 58,
+        "kind": "ingombro",
+        "src": "scheda JYSK"
+      }
+    ],
+    "seatHeight": {
+      "min": 44,
+      "max": 53,
+      "src": "scheda JYSK"
+    },
+    "arms": {
+      "type": "fissi",
+      "single": 66,
+      "src": "scheda JYSK"
+    },
+    "lumbar": "Regolabile",
+    "headrest": "regolabile",
+    "maxLoad": {
+      "v": 110
+    },
+    "rating": {
+      "v": 5.0,
+      "n": 4,
+      "platform": "JYSK"
+    },
+    "sources": [
+      {
+        "label": "Scheda JYSK",
+        "url": "https://jysk.it/ufficio/sedie-da-ufficio/sedia-da-ufficio-karlslunde-tessuto-nero-mesh-tessuto-nero"
+      }
+    ]
+  }
+]

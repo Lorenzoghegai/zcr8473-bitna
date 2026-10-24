@@ -1,0 +1,71 @@
+{
+  "description": "Postazione ricostruita in modo parametrico dalle foto e dalle misure fornite. Origine: centro del bordo del tavolo dal lato in cui ci si siede. Asse z verso il muro alle spalle, asse x verso destra stando seduti.",
+  "params": {
+    "spaceBehindCm": {
+      "v": 90,
+      "status": "fornito",
+      "label": "Spazio tra bordo tavolo e muro alle spalle"
+    },
+    "legClearCm": {
+      "v": 69,
+      "status": "derivato",
+      "label": "Luce libera tra le gambe del tavolo",
+      "note": "Assunta pari al vincolo di larghezza fornito (69 cm)."
+    },
+    "apronBottomCm": {
+      "v": 69,
+      "status": "derivato",
+      "label": "Altezza libera sotto il piano/telaio",
+      "note": "Assunta pari al vincolo sui braccioli fornito (69 cm)."
+    },
+    "tableHeightCm": {
+      "v": 75,
+      "status": "stimato",
+      "label": "Altezza del piano",
+      "note": "Valore tipico; non misurato."
+    },
+    "legSizeCm": {
+      "v": 5,
+      "status": "stimato",
+      "label": "Sezione gambe del tavolo",
+      "note": "Stimata dalle foto."
+    },
+    "tableLengthCm": {
+      "v": 120,
+      "status": "stimato",
+      "label": "Profondità del tavolo (dal lato seduta)",
+      "note": "Stimata dalle foto."
+    },
+    "sideWallGapCm": {
+      "v": 15,
+      "status": "stimato",
+      "label": "Distanza tra tavolo e parete con termosifone (a sinistra)",
+      "note": "Stimata dalle foto."
+    },
+    "peninsulaHeightCm": {
+      "v": 92,
+      "status": "stimato",
+      "label": "Altezza della penisola alle spalle",
+      "note": "Stimata dalle foto."
+    },
+    "insertUnderTableCm": {
+      "v": 10,
+      "status": "ipotesi",
+      "label": "Quanto la sedia entra sotto il piano in posizione di lavoro",
+      "note": "Ipotesi di lavoro modificabile."
+    },
+    "standUpClearanceCm": {
+      "v": 25,
+      "status": "ipotesi",
+      "label": "Arretramento necessario per alzarsi",
+      "note": "Ipotesi di lavoro modificabile."
+    },
+    "tableShiftCm": {
+      "v": 0,
+      "status": "scelta",
+      "label": "Spostamento del tavolo verso l'interno (lontano dal muro)",
+      "note": "Puoi spostare il tavolo per guadagnare spazio."
+    }
+  },
+  "photosNote": "Le foto della stanza non sono incluse nell'app né caricate su servizi esterni: sono state usate solo per stimare la disposizione (penisola alle spalle, parete con termosifone a sinistra, colonna luminosa nell'angolo)."
+}

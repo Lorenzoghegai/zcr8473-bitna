@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sedie entro 120 € — confronto e stanza 3D</title>
+  <meta name="description" content="Catalogo verificato di sedie da lavoro entro 120 € con vincoli di ingombro, confronto e visualizzazione 3D della postazione.">
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">{"imports": {"@app/": "./", "three": "./vendor/three/three.module.min.js", "three/addons/": "./vendor/three/addons/"}}</script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/catalogo" aria-label="Catalogo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10v8H7zM5 12h14v3H5zM8 15v3M16 15v3M12 15v5M7 21h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Sedie ≤ 120 €</span>
+    </a>
+    <nav class="mainnav" aria-label="Sezioni">
+      <a href="#/catalogo" data-route="catalogo">Catalogo</a>
+      <a href="#/scelte" data-route="scelte">Scelte</a>
+      <a href="#/confronto" data-route="confronto">Confronto <span class="pill" id="cmp-count">0</span></a>
+      <a href="#/stanza" data-route="stanza">Stanza 3D</a>
+      <a href="#/convenzioni" data-route="convenzioni">Convenzioni</a>
+      <a href="#/metodo" data-route="metodo">Metodo e fonti</a>
+    </nav>
+  </header>
+  <div class="databar" id="databar" role="note"></div>
+  <main id="app" tabindex="-1"><p class="loading">Caricamento dei dati…</p></main>
+  <footer class="footer">
+    <p>Prezzi, disponibilità e misure sono <strong>rilevati</strong> nella data indicata e non si aggiornano da soli: verifica sempre la scheda del negozio prima di acquistare. Le immagini sono mostrate dal sito del negozio (collegamento diretto) e restano dei rispettivi titolari.</p>
+  </footer>
+  <script type="module">import '@app/js/main.js';</script>
+</body>
+</html>

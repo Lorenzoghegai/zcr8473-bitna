@@ -1,0 +1,52 @@
+{
+  "title": "Sedie da lavoro entro 120 € — dataset rilevato",
+  "checkedDate": "2026-10-24",
+  "checkWindow": "24/10/2026, 11:30–12:10 (ora italiana, CEST)",
+  "currency": "EUR",
+  "budgetEur": 120,
+  "constraints": {
+    "maxWidthCm": 69,
+    "maxArmHeightCm": 69,
+    "spaceBehindTableCm": 90,
+    "notes": "Vincoli forniti dall'utente. La larghezza include braccioli e base; l'altezza braccioli è da terra nella configurazione in cui la sedia entra sotto il tavolo."
+  },
+  "files": [
+    "sources/amazon.json",
+    "sources/ikea.json",
+    "sources/jysk.json",
+    "sources/home24.json",
+    "sources/altri.json"
+  ],
+  "stores": {
+    "Amazon.it": {
+      "shipping": "Offerte vendute o spedite da Amazon: «Consegna GRATUITA» mostrata in pagina. Offerte di venditori terzi spedite dal venditore: «Consegna GRATUITA … sul tuo primo ordine» (sessione non autenticata); il costo per ordini successivi non è visibile.",
+      "returns": "Offerte Amazon: «Restituibile entro 30 giorni dal ricevimento». Venditori terzi: politica da verificare in scheda.",
+      "priceRefs": "Il prezzo barrato può essere «Prezzo consigliato» (indicato dal produttore/venditore) o «Prezzo mediano» (mediana dei prezzi pagati su Amazon.it esclusi i periodi promozionali)."
+    },
+    "IKEA Italia": {
+      "shipping": "Pacchi leggeri: 5 € (oltre 59 €: 1 € per soci IKEA Family, 5 € prezzo normale), solo per prodotti compatibili (≤30 kg, colli <25 kg; compatibilità verificabile nel carrello). Consegna al piano strada fino a 190 €: 29 € (19 € soci Family).",
+      "returns": "365 giorni (campo returnPolicy della scheda prodotto)."
+    },
+    "JYSK": {
+      "shipping": "Click & Collect gratuito (prenotazione pronta in 30 minuti). Costo della consegna a domicilio non pubblicato in scheda («+ eventuali costi di spedizione»): da verificare nel carrello.",
+      "returns": "«Resi illimitati — senza limiti di tempo, in qualsiasi negozio JYSK» (dichiarato in scheda)."
+    },
+    "home24": {
+      "shipping": "Spedizione pacchi 5,99 €; merci ingombranti 9,99 €; trasporto mobili 39,99 € (tariffe mostrate inserendo il CAP di riferimento 50122: verificare con il proprio CAP). I costi di spedizione sono calcolati prima degli sconti.",
+      "returns": "Diritto di reso entro 30 giorni, reso gratuito (dichiarato in scheda)."
+    },
+    "Leroy Merlin": {
+      "shipping": "Prodotti del marketplace spediti dal venditore partner; costi variabili (in alcune schede «a domicilio da 29,99–34,99 €»). Ritiro e reso in negozio non disponibili per il marketplace.",
+      "returns": "Per il marketplace valgono le condizioni del venditore."
+    },
+    "Mondo Convenienza": {
+      "shipping": "Costo e disponibilità calcolati solo inserendo il CAP: non verificati.",
+      "returns": "Non verificato."
+    },
+    "Procomfort": {
+      "shipping": "Spedizione gratuita al piano strada per importi superiori a 49,99 €.",
+      "returns": "Pagina «reso gratuito» presente sul sito (non approfondita: prodotti fuori budget)."
+    }
+  },
+  "legal": "Per acquisti da consumatore si applica la garanzia legale di conformità di 24 mesi (Codice del Consumo) indipendentemente dalla garanzia commerciale dichiarata dal venditore."
+}

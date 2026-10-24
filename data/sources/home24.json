@@ -1,0 +1,316 @@
+[
+  {
+    "id": "h24-kiokio",
+    "name": "Sedia da ufficio KIOKIO",
+    "brand": "Mørteens (marchio home24)",
+    "model": "KIOKIO",
+    "code": "Codice articolo 000000001000497207",
+    "variant": "Nero",
+    "store": "home24",
+    "seller": "home24 SE",
+    "shipper": "home24",
+    "url": "https://www.home24.it/prodotto/sedia-da-ufficio-kiokio-nero",
+    "image": "https://cdn1.home24.net/images/media/catalog/product/original/jpg/-/1/-1000497207-251006-010-IMAGE-P000000001000497207.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 74.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 5.99,
+      "status": "fissa",
+      "note": "Spedizione pacchi 5,99 € (tariffa mostrata per il CAP di riferimento 50122: verificare con il proprio CAP)"
+    },
+    "availability": "Subito disponibile",
+    "delivery": "ca. 30 ott – 4 nov",
+    "widths": [
+      {
+        "v": 65,
+        "kind": "ingombro",
+        "src": "scheda home24 (Dimensioni totali)"
+      }
+    ],
+    "depth": {
+      "v": 66,
+      "src": "scheda home24"
+    },
+    "height": {
+      "min": 108,
+      "max": 116,
+      "src": "scheda home24"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 54,
+      "src": "scheda home24"
+    },
+    "seat": {
+      "w": 53,
+      "d": 48
+    },
+    "back": {
+      "h": 65
+    },
+    "arms": {
+      "type": "fissi",
+      "single": 66,
+      "src": "scheda home24 «Altezza dei braccioli 66 cm»"
+    },
+    "lumbar": "nessuno dichiarato",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "«funzione dondolo»"
+    },
+    "materials": "Rivestimento mesh, imbottitura in schiuma fredda, struttura in ferro verniciato e nylon",
+    "maxLoad": {
+      "v": 140
+    },
+    "weightKg": 11.5,
+    "returns": "Reso gratuito entro 30 giorni (dichiarato)",
+    "rating": null,
+    "cons": [
+      "Nessuna recensione al 24/10/2026"
+    ],
+    "issues": [
+      "Riferimento dell'altezza braccioli non esplicitato (66 cm, compatibile solo con una misura da terra)"
+    ],
+    "convention": "home24",
+    "sources": [
+      {
+        "label": "Scheda home24",
+        "url": "https://www.home24.it/prodotto/sedia-da-ufficio-kiokio-nero"
+      }
+    ]
+  },
+  {
+    "id": "h24-tilly",
+    "name": "Sedia da ufficio TILLY",
+    "brand": "kollected (marchio home24)",
+    "model": "TILLY",
+    "code": "Codice articolo 000000001000500017",
+    "variant": "Tessuto Bouclé Moena: grigio",
+    "store": "home24",
+    "seller": "home24 SE",
+    "shipper": "home24",
+    "url": "https://www.home24.it/prodotto/sedia-da-ufficio-tilly-tessuto-boucle-moena-grigio",
+    "image": "https://cdn1.home24.net/images/media/catalog/product/original/jpg/-/1/-1000500017-251127-010-IMAGE-P000000001000500017.jpg",
+    "type": "design",
+    "model3d": "tub",
+    "price": 87.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 5.99,
+      "status": "fissa",
+      "note": "Spedizione pacchi 5,99 € (CAP di riferimento 50122)"
+    },
+    "availability": "Soltanto 5 in magazzino",
+    "delivery": "ca. 30 ott – 4 nov",
+    "widths": [
+      {
+        "v": 56,
+        "kind": "ingombro",
+        "src": "scheda home24"
+      }
+    ],
+    "depth": {
+      "v": 56,
+      "src": "scheda home24"
+    },
+    "height": {
+      "min": 80,
+      "max": 90,
+      "src": "scheda home24"
+    },
+    "seatHeight": {
+      "min": 43,
+      "max": 53,
+      "src": "scheda home24"
+    },
+    "seat": {
+      "w": 42,
+      "d": 40
+    },
+    "back": {
+      "h": 39
+    },
+    "arms": {
+      "type": "integrati",
+      "single": 62,
+      "src": "scheda home24 «Altezza dei braccioli 62 cm»"
+    },
+    "lumbar": "nessuno",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "nessuna"
+    },
+    "materials": "Bouclé 100% poliestere (20.000 cicli Martindale), struttura in ferro verniciato",
+    "maxLoad": {
+      "v": 100
+    },
+    "weightKg": 10,
+    "returns": "Reso gratuito entro 30 giorni (dichiarato)",
+    "rating": {
+      "v": 4.8,
+      "n": 52,
+      "platform": "home24"
+    },
+    "pros": [
+      "Riepilogo home24 (generato da IA): design e comfort di seduta apprezzati, buon rapporto qualità-prezzo"
+    ],
+    "cons": [
+      "Raramente lo schienale è percepito come scomodo e le rotelle potrebbero essere migliori (riepilogo home24)",
+      "Poltroncina d'arredo: seduta piccola (42 × 40), portata 100 kg, nessuna inclinazione"
+    ],
+    "convention": "home24",
+    "sources": [
+      {
+        "label": "Scheda home24",
+        "url": "https://www.home24.it/prodotto/sedia-da-ufficio-tilly-tessuto-boucle-moena-grigio"
+      }
+    ]
+  },
+  {
+    "id": "h24-muenchen",
+    "name": "Sedia da ufficio München",
+    "brand": "Fredriks (marchio home24)",
+    "model": "München",
+    "code": "Codice articolo 000000001000356450",
+    "variant": "Grigio",
+    "store": "home24",
+    "seller": "home24 SE",
+    "shipper": "home24",
+    "url": "https://www.home24.it/prodotto/sedia-da-ufficio-muenchen-grigio",
+    "image": "https://cdn1.home24.net/images/media/catalog/product/original/png/-/1/-1000356450-230510-010-IMAGE-P000000001000356450.webp",
+    "type": "tessuto",
+    "model3d": "armless",
+    "price": 87.99,
+    "priceRef": null,
+    "shipping": {
+      "cost": 5.99,
+      "status": "fissa",
+      "note": "Spedizione pacchi 5,99 € (CAP di riferimento 50122)"
+    },
+    "discounts": [
+      {
+        "label": "Coupon home24 −14% «Offerte autunnali»",
+        "status": "pubblicizzato",
+        "conditions": "Condizioni lette in pagina: valido fino al 29.10.2026 23:59; non combinabile con codici sconto per lo stesso prodotto. Da riscattare nel carrello: applicazione non verificata. Con il coupon: 75,67 € + 5,99 € = 81,66 €",
+        "expires": "2026-10-29"
+      }
+    ],
+    "availability": "Subito disponibile",
+    "delivery": "ca. 30 ott – 4 nov",
+    "widths": [],
+    "depth": {
+      "v": 62,
+      "src": "scheda home24"
+    },
+    "height": {
+      "min": 91,
+      "max": 100.5,
+      "src": "scheda home24"
+    },
+    "seatHeight": {
+      "max": 54,
+      "src": "scheda home24 (valore singolo)"
+    },
+    "seat": {
+      "w": 46,
+      "d": 44
+    },
+    "back": {
+      "h": 47
+    },
+    "arms": {
+      "type": "nessuno"
+    },
+    "lumbar": "nessuno",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "nessuna"
+    },
+    "materials": "Tessuto 70% poliestere, 20% lino, 10% cotone; struttura cromata",
+    "maxLoad": {
+      "v": 100
+    },
+    "weightKg": 8.75,
+    "returns": "Reso gratuito entro 30 giorni (dichiarato)",
+    "rating": {
+      "v": 4.7,
+      "n": 42,
+      "platform": "home24"
+    },
+    "cons": [
+      "Solo regolazione in altezza e rotazione",
+      "Portata 100 kg"
+    ],
+    "issues": [
+      "«Larghezza totale 46 cm» coincide con la larghezza della seduta: la base non è quotata in larghezza"
+    ],
+    "convention": "home24",
+    "sources": [
+      {
+        "label": "Scheda home24",
+        "url": "https://www.home24.it/prodotto/sedia-da-ufficio-muenchen-grigio"
+      }
+    ]
+  },
+  {
+    "id": "h24-adonso",
+    "name": "Sedia da ufficio ADONSO",
+    "brand": "Mørteens (marchio home24)",
+    "model": "ADONSO",
+    "code": "Codice articolo 000000001000497206",
+    "variant": "Rosso ruggine",
+    "store": "home24",
+    "seller": "home24 SE",
+    "shipper": "home24",
+    "url": "https://www.home24.it/prodotto/sedia-da-ufficio-adonso-rosso-ruggine",
+    "image": "https://cdn1.home24.net/images/media/catalog/product/original/jpg/-/1/-1000497206-251113-010-IMAGE-P000000001000497206.jpg",
+    "type": "imbottita",
+    "model3d": "tub",
+    "price": 91.99,
+    "priceRef": {
+      "v": 99.99,
+      "kind": "precedente"
+    },
+    "shipping": {
+      "cost": 5.99,
+      "status": "fissa"
+    },
+    "widths": [
+      {
+        "v": 71,
+        "kind": "ingombro",
+        "src": "scheda home24"
+      }
+    ],
+    "depth": {
+      "v": 76,
+      "src": "scheda home24"
+    },
+    "seatHeight": {
+      "min": 53,
+      "max": 61,
+      "src": "scheda home24"
+    },
+    "arms": {
+      "type": "integrati"
+    },
+    "maxLoad": {
+      "v": 140
+    },
+    "rating": {
+      "v": 4.2,
+      "n": 6,
+      "platform": "home24"
+    },
+    "convention": "home24",
+    "sources": [
+      {
+        "label": "Scheda home24",
+        "url": "https://www.home24.it/prodotto/sedia-da-ufficio-adonso-rosso-ruggine"
+      }
+    ]
+  }
+]

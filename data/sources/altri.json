@@ -1,0 +1,180 @@
+[
+  {
+    "id": "lm-zik-en1335",
+    "name": "Sedia Ufficio EN 1335 Certificata Poltrona Ergonomica Girevole Regolabile per Scrivania - Nero ZIK",
+    "brand": "ZIK",
+    "model": "Sedia EN 1335 (cod. Leroy Merlin 90153554)",
+    "code": "Leroy Merlin 90153554",
+    "variant": "Nero",
+    "store": "Leroy Merlin (marketplace)",
+    "seller": "ZIK Home",
+    "shipper": "ZIK Home",
+    "url": "https://www.leroymerlin.it/prodotti/sedia-ufficio-en-1335-certificata-poltrona-ergonomica-girevole-regolabile-per-scrivania-nero-zik-90153554.html",
+    "image": "https://media.adeo.com/mkp/951f3f01132fee32fd07947afb786028/media.png",
+    "type": "tessuto",
+    "model3d": "mesh-high",
+    "price": 99.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "sconosciuta",
+      "note": "Venduto e spedito dal partner ZIK Home; costo non leggibile senza CAP"
+    },
+    "widths": [
+      {
+        "v": 62,
+        "kind": "ingombro",
+        "src": "descrizione (62 × 56 × 108/118, L × P × H)"
+      }
+    ],
+    "depth": {
+      "v": 56,
+      "src": "descrizione"
+    },
+    "height": {
+      "min": 108,
+      "max": 118,
+      "src": "descrizione"
+    },
+    "seat": {
+      "w": 49,
+      "d": 49
+    },
+    "back": {
+      "w": 47,
+      "h": 74
+    },
+    "arms": {
+      "type": "fissi",
+      "src": "«Braccioli: Sì», altezza non quotata"
+    },
+    "lumbar": "«Con supporto lombare» (non regolabile dichiarato)",
+    "headrest": "sì",
+    "tilt": {
+      "kind": "non-dichiarata"
+    },
+    "maxLoad": {
+      "v": 120,
+      "note": "120 kg in scheda; pistone «classe 3, fino a 150 kg» nel testo"
+    },
+    "certifications": "EN 1335 dichiarata dal venditore (nessun certificato consultabile in pagina)",
+    "warranty": "Garanzia legale 2 anni (pagina Leroy Merlin)",
+    "rating": null,
+    "issues": [
+      "Larghezza 62 cm nella descrizione ma 56 cm nella scheda tecnica: usato il valore maggiore",
+      "Altezza seduta e braccioli non documentate",
+      "Spedizione non quotata"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Leroy Merlin",
+        "url": "https://www.leroymerlin.it/prodotti/sedia-ufficio-en-1335-certificata-poltrona-ergonomica-girevole-regolabile-per-scrivania-nero-zik-90153554.html"
+      }
+    ]
+  },
+  {
+    "id": "mc-galaxya",
+    "name": "Galaxya Sedia girevole grigio",
+    "brand": "Mondo Convenienza",
+    "model": "Galaxya",
+    "code": "Codice 90MF",
+    "variant": "Grigio",
+    "store": "Mondo Convenienza",
+    "seller": "Mondo Convenienza",
+    "shipper": "Mondo Convenienza",
+    "url": "https://www.mondoconv.it/galaxya-90mf.html",
+    "image": "https://media.mondoconv.it/media/catalog/product/9/0/90MF_1LVL.jpg",
+    "type": "rete",
+    "model3d": "mesh-high",
+    "price": 80.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": null,
+      "status": "sconosciuta",
+      "note": "Disponibilità e modalità di consegna calcolate solo inserendo il CAP"
+    },
+    "widths": [
+      {
+        "v": 60,
+        "kind": "ingombro",
+        "src": "scheda (L.60 P.56 H.113)"
+      }
+    ],
+    "depth": {
+      "v": 56,
+      "src": "scheda"
+    },
+    "height": {
+      "max": 113,
+      "src": "scheda"
+    },
+    "arms": {
+      "type": "fissi",
+      "src": "visibili in foto, non quotati"
+    },
+    "headrest": "visibile in foto",
+    "tilt": {
+      "kind": "non-dichiarata"
+    },
+    "rating": null,
+    "issues": [
+      "Scheda con sole dimensioni d'ingombro: mancano altezza seduta, braccioli, portata"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Mondo Convenienza",
+        "url": "https://www.mondoconv.it/galaxya-90mf.html"
+      }
+    ]
+  },
+  {
+    "id": "pc-damsel",
+    "name": "DAMSEL",
+    "brand": "Procomfort",
+    "model": "Damsel",
+    "code": "shop.procomfort.it",
+    "variant": "Vari colori",
+    "store": "Procomfort",
+    "seller": "Procomfort",
+    "shipper": "Procomfort",
+    "url": "https://shop.procomfort.it/damsel.html",
+    "image": "https://shop.procomfort.it/1593-large_default/damsel.jpg",
+    "type": "rete",
+    "model3d": "mesh-mid",
+    "price": 249.99,
+    "priceRef": {
+      "v": 494.1,
+      "kind": "listino"
+    },
+    "shipping": {
+      "cost": 0,
+      "status": "gratuita",
+      "note": "Gratuita al piano strada oltre 49,99 €"
+    },
+    "discounts": [
+      {
+        "label": "Convenzione aziendale Procomfort 10%",
+        "status": "non-applicabile",
+        "conditions": "Anche applicando il 10% il prezzo sarebbe 224,99 €: fuori budget. È il prodotto meno caro del negozio (poltroncina polifunzionale con sedile ribaltabile)."
+      }
+    ],
+    "widths": [],
+    "arms": {
+      "type": "fissi"
+    },
+    "rating": null,
+    "issues": [
+      "Le poltrone ergonomiche Procomfort partono da 679,99 € (Enjoy Ultra)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda Procomfort",
+        "url": "https://shop.procomfort.it/damsel.html"
+      },
+      {
+        "label": "Catalogo ergonomiche (ordinato per prezzo)",
+        "url": "https://shop.procomfort.it/ergonomiche?order=product.price.asc"
+      }
+    ]
+  }
+]

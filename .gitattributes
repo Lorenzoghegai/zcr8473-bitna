@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+vendor/** -diff linguist-vendored
+Sedie-120.html -diff linguist-generated

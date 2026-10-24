@@ -1,0 +1,162 @@
+{
+  "checked": "2026-10-24",
+  "source": "Screenshot del portale convenzioni aziendali fornito dall'utente; condizioni verificate sui siti pubblici dei negozi dove possibile.",
+  "items": [
+    {
+      "id": "home24-giftcard",
+      "name": "home24 Gift Cards",
+      "portalValue": "12,5% di sconto",
+      "status": "da-verificare",
+      "pertinent": true,
+      "summary": "Utile solo per le sedie vendute e spedite da home24 (es. KIOKIO, TILLY, München). Lo sconto riguarda l'acquisto della carta regalo tramite il portale: l'esborso reale dipende dai tagli acquistabili.",
+      "verifiedFacts": [
+        "Valida 3 anni dall'attivazione (FAQ home24).",
+        "Valida per i prodotti venduti e spediti da home24; non per il marketplace estero.",
+        "Copre anche le spese di spedizione.",
+        "Cumulabile con altri codici sconto e buoni promozionali, ma un solo codice sconto per ordine.",
+        "Nessun rimborso in contanti; in caso di reso viene emessa una nuova carta regalo per la quota pagata con carta.",
+        "Sul sito home24: tagli 15/25/50/100/150/250 € oppure importo libero 5–250 €; massimo 250 € per ordine di carte elettroniche."
+      ],
+      "userMustCheck": [
+        "Tagli o importi acquistabili tramite il portale aziendale (importo libero o tagli fissi).",
+        "Se il 12,5% si applica al valore facciale e se ci sono commissioni o costi di emissione.",
+        "Tempi di consegna del codice e scadenza della carta acquistata tramite portale."
+      ],
+      "giftCard": {
+        "rate": 0.125,
+        "denominations": [
+          15,
+          25,
+          50,
+          100,
+          150,
+          250
+        ],
+        "customMin": 5,
+        "customMax": 250
+      },
+      "sources": [
+        {
+          "label": "FAQ home24 — buoni e carte regalo",
+          "url": "https://www.home24.help/it_IT/pagamenti-buoni-sconto-offerte"
+        },
+        {
+          "label": "Carte regalo home24",
+          "url": "https://www.home24.it/carte-regalo/"
+        }
+      ]
+    },
+    {
+      "id": "home24-code",
+      "name": "home24",
+      "portalValue": "«< 18%» di sconto",
+      "status": "da-verificare",
+      "pertinent": true,
+      "summary": "La dicitura «< 18%» indica uno sconto fino al 18%, non uno sconto fisso. Le condizioni (prodotti ammessi, minimi, scadenza) sono visibili solo nel portale: NON è stato applicato a nessun prezzo.",
+      "verifiedFacts": [
+        "Su home24 si può usare un solo codice sconto per ordine.",
+        "I coupon prodotto pubblici (es. −14% sulla München) «non possono essere combinati con codici sconto per lo stesso prodotto».",
+        "I costi di spedizione sono calcolati prima dell'applicazione degli sconti."
+      ],
+      "userMustCheck": [
+        "Percentuale effettiva sulle sedie da ufficio e categorie escluse.",
+        "Importo minimo d'ordine e scadenza.",
+        "Cumulabilità con gift card (prevista in generale da home24) e con i coupon prodotto (esclusa per lo stesso prodotto)."
+      ],
+      "sources": [
+        {
+          "label": "Codici sconto home24",
+          "url": "https://www.home24.it/codici-sconto/"
+        }
+      ]
+    },
+    {
+      "id": "procomfort",
+      "name": "Procomfort",
+      "portalValue": "10% di sconto",
+      "status": "non-utile",
+      "pertinent": false,
+      "summary": "Il prodotto meno caro del negozio online è la poltroncina Damsel a 249,99 € (224,99 € con il 10%); le poltrone ergonomiche partono da 679,99 €. Fuori budget anche con la convenzione.",
+      "sources": [
+        {
+          "label": "Catalogo Procomfort ordinato per prezzo",
+          "url": "https://shop.procomfort.it/ergonomiche?order=product.price.asc"
+        }
+      ]
+    },
+    {
+      "id": "veneta-cucine",
+      "name": "Veneta Cucine by Bellosi Group",
+      "portalValue": "30% di sconto",
+      "status": "non-pertinente",
+      "pertinent": false,
+      "summary": "Produttore di cucine: nessuna sedia da lavoro individuata. Catalogo non approfondito."
+    },
+    {
+      "id": "novamobili",
+      "name": "Novamobili by Bellosi Group",
+      "portalValue": "30% di sconto",
+      "status": "non-pertinente",
+      "pertinent": false,
+      "summary": "Arredamento (camere, living): nessuna sedia da ufficio entro budget individuata. Catalogo non approfondito."
+    },
+    {
+      "id": "deeva",
+      "name": "Deeva (Lombardia, Piemonte)",
+      "portalValue": "10% di sconto",
+      "status": "non-pertinente",
+      "pertinent": false,
+      "summary": "Servizi di parrucchiere a domicilio: non pertinente."
+    }
+  ],
+  "publicPromos": [
+    {
+      "store": "Amazon.it",
+      "label": "Coupon in scheda (es. −20% Yaheetech YP-136N, −25% YA591679, −15 € Milacyee)",
+      "status": "pubblicizzato",
+      "note": "Applicati al checkout salvo esaurimento; non verificati in cassa e quindi non usati nei totali."
+    },
+    {
+      "store": "home24",
+      "label": "Coupon −14% «Offerte autunnali» sulla München",
+      "status": "pubblicizzato",
+      "note": "Condizioni lette in pagina (fino al 29/10/2026, non combinabile con codici per lo stesso prodotto); applicazione nel carrello non verificata."
+    },
+    {
+      "store": "home24",
+      "label": "Iscrizione newsletter −5%",
+      "status": "non-verificato",
+      "note": "Richiede iscrizione; valido 6 settimane, solo prodotti venduti e spediti da home24, non cumulabile, non applicabile alla spedizione."
+    },
+    {
+      "store": "home24",
+      "label": "App −20 €",
+      "status": "non-applicabile",
+      "note": "Minimo d'acquisto 150 €."
+    },
+    {
+      "store": "JYSK",
+      "label": "Buono 10 € con iscrizione alle comunicazioni di marketing",
+      "status": "non-verificato",
+      "note": "Da usare in negozio con spesa minima 50 €; richiede consenso marketing."
+    },
+    {
+      "store": "JYSK",
+      "label": "Prezzi in offerta (es. BILLUM 65 € invece di 89,95 €)",
+      "status": "verificato",
+      "note": "Prezzo già scontato in scheda con indicazione del prezzo più basso degli ultimi 30 giorni."
+    },
+    {
+      "store": "Leroy Merlin",
+      "label": "App −10% «Homy Privato» fino al 27/10",
+      "status": "non-applicabile",
+      "note": "Su selezione di prodotti venduti da Leroy Merlin oltre 159 €; le sedie trovate sono del marketplace."
+    },
+    {
+      "store": "IKEA",
+      "label": "Buoni IKEA Family (10/25/50 €)",
+      "status": "non-verificato",
+      "note": "Richiedono iscrizione e accesso; soglie e condizioni non verificate."
+    }
+  ]
+}

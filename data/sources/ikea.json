@@ -1,0 +1,382 @@
+[
+  {
+    "id": "ikea-huvudspelare",
+    "name": "HUVUDSPELARE Sedia da gaming, nero",
+    "brand": "IKEA",
+    "model": "HUVUDSPELARE",
+    "code": "Art. 905.076.03",
+    "variant": "Nero",
+    "store": "IKEA Italia",
+    "seller": "IKEA",
+    "shipper": "IKEA",
+    "url": "https://www.ikea.com/it/it/p/huvudspelare-sedia-da-gaming-nero-90507603/",
+    "image": "https://www.ikea.com/it/it/images/products/huvudspelare-sedia-da-gaming-nero__1039672_pe840417_s5.jpg?f=s",
+    "type": "gaming",
+    "model3d": "gaming",
+    "price": 79.95,
+    "priceRef": null,
+    "shipping": {
+      "cost": 5,
+      "max": 29,
+      "status": "intervallo",
+      "note": "Pacchi leggeri 5 € se il prodotto è compatibile (verifica nel carrello), altrimenti consegna al piano strada 29 € (19 € soci IKEA Family). Il budget è valutato sul caso peggiore."
+    },
+    "availability": "In stock secondo i dati strutturati della scheda (InStock, nuovo); la consegna per il proprio CAP si conferma nel carrello",
+    "widths": [
+      {
+        "v": 60,
+        "kind": "ingombro",
+        "src": "scheda IKEA (Larghezza)"
+      }
+    ],
+    "depth": {
+      "v": 54,
+      "src": "scheda IKEA"
+    },
+    "height": {
+      "min": 113,
+      "max": 123,
+      "src": "scheda IKEA"
+    },
+    "seatHeight": {
+      "min": 43,
+      "max": 53,
+      "src": "scheda IKEA"
+    },
+    "seat": {
+      "w": 46,
+      "d": 42
+    },
+    "arms": {
+      "type": "fissi",
+      "min": 62,
+      "max": 72,
+      "src": "scheda IKEA («Altezza min/max bracciolo»)"
+    },
+    "lumbar": "Non dichiarato",
+    "headrest": "integrato (schienale alto)",
+    "tilt": {
+      "kind": "oscillante",
+      "range": "«Regola l'altezza e l'inclinazione del sedile» (descrizione IKEA)"
+    },
+    "materials": "Schienale in tessuto a rete",
+    "maxLoad": {
+      "v": 110,
+      "note": "«Testato per 110 kg»"
+    },
+    "returns": "365 giorni (IKEA)",
+    "rating": {
+      "v": 4.6,
+      "n": 90,
+      "platform": "IKEA Italia"
+    },
+    "pros": [
+      "Recensioni IKEA: comoda, facile da montare, leggera e maneggevole",
+      "«Ottimo rapporto qualità prezzo»",
+      "Misure dei braccioli documentate dal produttore"
+    ],
+    "cons": [
+      "Portata 110 kg (inferiore ai modelli da 120–150 kg)",
+      "Nessun supporto lombare regolabile dichiarato",
+      "Recensioni in numero contenuto (90)"
+    ],
+    "issues": [
+      "Costo di consegna esatto noto solo nel carrello (5 € o 29 €)"
+    ],
+    "sources": [
+      {
+        "label": "Scheda IKEA",
+        "url": "https://www.ikea.com/it/it/p/huvudspelare-sedia-da-gaming-nero-90507603/"
+      },
+      {
+        "label": "Servizi di consegna IKEA",
+        "url": "https://www.ikea.com/it/it/customer-service/services/delivery/"
+      }
+    ]
+  },
+  {
+    "id": "ikea-krylbo",
+    "name": "KRYLBO Sedia girevole, Tonerud beige scuro",
+    "brand": "IKEA",
+    "model": "KRYLBO",
+    "code": "Art. 305.735.87",
+    "variant": "Tonerud beige scuro",
+    "store": "IKEA Italia",
+    "seller": "IKEA",
+    "shipper": "IKEA",
+    "url": "https://www.ikea.com/it/it/p/krylbo-sedia-girevole-tonerud-beige-scuro-30573587/",
+    "image": "https://www.ikea.com/it/it/images/products/krylbo-sedia-girevole-tonerud-beige-scuro__1429043_pe981757_s5.jpg?f=s",
+    "type": "design",
+    "model3d": "armless",
+    "price": 79.95,
+    "priceRef": null,
+    "shipping": {
+      "cost": 5,
+      "max": 29,
+      "status": "intervallo",
+      "note": "Pacchi leggeri 5 € o piano strada 29 €"
+    },
+    "widths": [
+      {
+        "v": 63,
+        "kind": "ingombro",
+        "src": "scheda IKEA"
+      }
+    ],
+    "depth": {
+      "v": 63,
+      "src": "scheda IKEA"
+    },
+    "height": {
+      "max": 88,
+      "src": "scheda IKEA"
+    },
+    "seatHeight": {
+      "min": 46,
+      "max": 58,
+      "src": "scheda IKEA"
+    },
+    "seat": {
+      "w": 51,
+      "d": 45
+    },
+    "arms": {
+      "type": "nessuno"
+    },
+    "lumbar": "nessuno",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "non-dichiarata"
+    },
+    "maxLoad": {
+      "v": 110,
+      "note": "«Testato per 110 kg»"
+    },
+    "returns": "365 giorni (IKEA)",
+    "rating": {
+      "v": 4.8,
+      "n": 11,
+      "platform": "IKEA Italia"
+    },
+    "cons": [
+      "Sedia girevole d'arredo: schienale basso (altezza totale 88 cm), nessuna regolazione oltre all'altezza",
+      "Pochissime recensioni"
+    ],
+    "sources": [
+      {
+        "label": "Scheda IKEA",
+        "url": "https://www.ikea.com/it/it/p/krylbo-sedia-girevole-tonerud-beige-scuro-30573587/"
+      }
+    ]
+  },
+  {
+    "id": "ikea-renberget",
+    "name": "RENBERGET Sedia girevole, Bomstad nero",
+    "brand": "IKEA",
+    "model": "RENBERGET",
+    "code": "Art. 604.935.46",
+    "variant": "Bomstad nero",
+    "store": "IKEA Italia",
+    "seller": "IKEA",
+    "shipper": "IKEA",
+    "url": "https://www.ikea.com/it/it/p/renberget-sedia-girevole-bomstad-nero-60493546/",
+    "image": "https://www.ikea.com/it/it/images/products/renberget-sedia-girevole-bomstad-nero__1020135_pe831794_s5.jpg?f=s",
+    "type": "imbottita",
+    "model3d": "armless",
+    "price": 49.0,
+    "priceRef": {
+      "v": 59.0,
+      "kind": "precedente"
+    },
+    "shipping": {
+      "cost": 5,
+      "max": 29,
+      "status": "intervallo",
+      "note": "Pacchi leggeri 5 € o piano strada 29 €"
+    },
+    "widths": [
+      {
+        "v": 67,
+        "kind": "ingombro",
+        "src": "scheda IKEA"
+      }
+    ],
+    "depth": {
+      "v": 67,
+      "src": "scheda IKEA"
+    },
+    "height": {
+      "min": 100,
+      "max": 111,
+      "src": "scheda IKEA"
+    },
+    "seatHeight": {
+      "min": 44,
+      "max": 55,
+      "src": "scheda IKEA"
+    },
+    "seat": {
+      "w": 48,
+      "d": 43
+    },
+    "arms": {
+      "type": "nessuno"
+    },
+    "lumbar": "nessuno",
+    "headrest": "nessuno",
+    "tilt": {
+      "kind": "non-dichiarata"
+    },
+    "maxLoad": {
+      "v": 110,
+      "note": "«Testato per 110 kg»"
+    },
+    "returns": "365 giorni (IKEA)",
+    "rating": {
+      "v": 4.4,
+      "n": 214,
+      "platform": "IKEA Italia"
+    },
+    "cons": [
+      "Molto essenziale: solo regolazione in altezza",
+      "Margine di larghezza ridotto (67 cm su 69)"
+    ],
+    "issues": [
+      "Prezzo «nuovo prezzo più basso» (prima 59 €) mostrato nel catalogo"
+    ],
+    "sources": [
+      {
+        "label": "Scheda IKEA",
+        "url": "https://www.ikea.com/it/it/p/renberget-sedia-girevole-bomstad-nero-60493546/"
+      }
+    ]
+  },
+  {
+    "id": "ikea-millberget",
+    "name": "MILLBERGET Sedia girevole, Murum nero",
+    "brand": "IKEA",
+    "model": "MILLBERGET",
+    "code": "Art. 704.893.94",
+    "variant": "Murum nero",
+    "store": "IKEA Italia",
+    "seller": "IKEA",
+    "shipper": "IKEA",
+    "url": "https://www.ikea.com/it/it/p/millberget-sedia-girevole-murum-nero-70489394/",
+    "image": "https://www.ikea.com/it/it/images/products/millberget-sedia-girevole-murum-nero__1020142_pe831799_s5.jpg?f=s",
+    "type": "imbottita",
+    "model3d": "executive",
+    "price": 99.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": 5,
+      "max": 29,
+      "status": "intervallo"
+    },
+    "widths": [
+      {
+        "v": 70,
+        "kind": "ingombro",
+        "src": "scheda IKEA"
+      }
+    ],
+    "depth": {
+      "v": 70,
+      "src": "scheda IKEA"
+    },
+    "height": {
+      "max": 123,
+      "src": "scheda IKEA"
+    },
+    "seatHeight": {
+      "min": 45,
+      "max": 58,
+      "src": "scheda IKEA"
+    },
+    "seat": {
+      "w": 50,
+      "d": 46
+    },
+    "arms": {
+      "type": "fissi"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "returns": "365 giorni (IKEA)",
+    "rating": {
+      "v": 4.5,
+      "n": 267,
+      "platform": "IKEA Italia"
+    },
+    "sources": [
+      {
+        "label": "Scheda IKEA",
+        "url": "https://www.ikea.com/it/it/p/millberget-sedia-girevole-murum-nero-70489394/"
+      }
+    ]
+  },
+  {
+    "id": "ikea-flintan",
+    "name": "FLINTAN Sedia da ufficio, nero",
+    "brand": "IKEA",
+    "model": "FLINTAN",
+    "code": "Art. 104.890.28",
+    "variant": "Nero (senza braccioli)",
+    "store": "IKEA Italia",
+    "seller": "IKEA",
+    "shipper": "IKEA",
+    "url": "https://www.ikea.com/it/it/p/flintan-sedia-da-ufficio-nero-10489028/",
+    "image": "https://www.ikea.com/it/it/images/products/flintan-sedia-da-ufficio-nero__1007236_pe825956_s5.jpg?f=s",
+    "type": "tessuto",
+    "model3d": "armless",
+    "price": 69.0,
+    "priceRef": null,
+    "shipping": {
+      "cost": 5,
+      "max": 29,
+      "status": "intervallo"
+    },
+    "widths": [
+      {
+        "v": 71,
+        "kind": "ingombro",
+        "src": "scheda IKEA"
+      }
+    ],
+    "depth": {
+      "v": 71,
+      "src": "scheda IKEA"
+    },
+    "height": {
+      "max": 114,
+      "src": "scheda IKEA"
+    },
+    "seatHeight": {
+      "min": 45,
+      "max": 58,
+      "src": "scheda IKEA"
+    },
+    "seat": {
+      "w": 46,
+      "d": 49
+    },
+    "arms": {
+      "type": "nessuno"
+    },
+    "maxLoad": {
+      "v": 110
+    },
+    "returns": "365 giorni (IKEA)",
+    "rating": {
+      "v": 4.4,
+      "n": 130,
+      "platform": "IKEA Italia"
+    },
+    "sources": [
+      {
+        "label": "Scheda IKEA",
+        "url": "https://www.ikea.com/it/it/p/flintan-sedia-da-ufficio-nero-10489028/"
+      }
+    ]
+  }
+]
